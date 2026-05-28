@@ -1,19 +1,36 @@
-# Hi, I’m Giselle 👋
+# Giselle · AI Security & LLM Engineering
 
-I build **security-focused systems** at the intersection of **application security**, **AI/LLM agents**, and **critical infrastructure** – with tests, policies, and CI wired in from day one.
+> I build security-focused systems at the intersection of **AI/LLM agents**, **application security**, and **critical infrastructure** — with threat models, policy-as-code, and CI wired in from day one.
 
-- **AI & Agent Security**: prompt-injection detection, policy-as-code tool gateways, OPA-backed security gates, and benchmark harnesses for LLM agents.
-- **Security Tooling**: professional-grade Solidity vulnerability scanner, AIS data integrity/anomaly detection for maritime, and counter‑UAS reliability simulators.
-- **Compliance & Evidence**: multi-tenant compliance platforms (RBAC, audit logging, evidence lifecycle) and procurement-ready security pack generators.
+📍 Copenhagen, DK &nbsp;·&nbsp; 🎓 BSc Computer Science (Cybersecurity) &nbsp;·&nbsp; 🔭 Open to AI Engineer & Security Engineer roles
 
-## Highlights
+---
 
-- [`ToolShield`](https://github.com/giselleevita/ToolShield) – Prompt injection detection for tool-using LLM agents (bachelor thesis + 200+ tests + long-schema ablations).
-- [`llm-agent-security-benchmark`](https://github.com/giselleevita/llm-agent-security-benchmark) – Secure agent runtime with policy-as-code tool control and CI “Security Evaluation Gate”.
-- [`solidity-vuln-scanner`](https://github.com/giselleevita/solidity-vuln-scanner) – AI-powered smart-contract scanner with static analysis, LLM audit, and professional reports.
-- [`AegisAIS`](https://github.com/giselleevita/aegisais) – AIS data integrity & anomaly detection with detection rules, map UI, and alert workflows.
-- [`evidentia`](https://github.com/giselleevita/evidentia) – Enterprise compliance infra turning IT/security activity into continuous, audit-ready evidence.
-- [`dk-procurement-security-pack-generator`](https://github.com/giselleevita/dk-procurement-security-pack-generator) – Self-hosted generator for procurement-ready security documentation.
+## Featured Projects
 
-I care about **clear threat models**, **good tests**, and **security controls that are measurable, explainable, and automatable**.
+| Project | What it does | Stack |
+|---|---|---|
+| [ToolShield](https://github.com/giselleevita/ToolShield) | Prompt injection detection for tool-using LLM agents — bachelor thesis, 200+ tests, ablation study | Python, LangChain, FastAPI |
+| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Secure agent runtime with policy-as-code tool control and CI Security Evaluation Gate | Python, OPA, GitHub Actions |
+| [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Runtime policy enforcement gateway for LLM agents | Python, FastAPI, OPA |
+| [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot-) | RAG assistant grounded in NIST/CISA corpus with guardrails, citations, and audit logging | Python, Chroma, FastAPI |
+| [AegisAIS](https://github.com/giselleevita/aegisais) | AIS maritime data integrity checker — anomaly detection, map UI, alert workflows | Python, FastAPI, React |
+| [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Encrypted document storage on AWS with IAM, KMS, and S3 access controls | Terraform, HCL, AWS |
 
+---
+
+## What I Work With
+
+**AI/LLM:** LangChain · LlamaIndex · OpenAI API · Gemini · RAG pipelines · prompt injection detection · OPA policy-as-code  
+**Security:** threat modeling · NIST AI RMF · CISA guidance · SAST · audit logging · compliance automation  
+**Backend:** Python · FastAPI · PostgreSQL · REST APIs  
+**Infrastructure:** Terraform · AWS (IAM, S3, KMS, VPC, CloudTrail) · Docker · GitHub Actions CI/CD  
+**Frontend:** React · TypeScript
+
+---
+
+## Approach
+
+I care about **clear threat models**, **tests that cover the security-relevant paths**, and **controls that are measurable, explainable, and automatable** — not just security claims in a README.
+
+Most of my work sits at the boundary between AI engineering and security engineering: building systems that use LLMs in production while keeping them safe, auditable, and bounded.
