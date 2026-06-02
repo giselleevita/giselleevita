@@ -8,21 +8,21 @@
 
 ## Featured Projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| [ToolShield](https://github.com/giselleevita/ToolShield) | Prompt injection detection for tool-using LLM agents — bachelor thesis, 200+ tests, ablation study | Python, LangChain, FastAPI |
-| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Secure agent runtime with policy-as-code tool control and CI Security Evaluation Gate | Python, OPA, GitHub Actions |
-| [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Runtime policy enforcement gateway for LLM agents | Python, FastAPI, OPA |
-| [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot-) | RAG assistant grounded in NIST/CISA corpus with guardrails, citations, and audit logging | Python, Chroma, FastAPI |
-| [AegisAIS](https://github.com/giselleevita/aegisais) | AIS maritime data integrity checker — anomaly detection, map UI, alert workflows | Python, FastAPI, React |
-| [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Encrypted document storage on AWS with IAM, KMS, and S3 access controls | Terraform, HCL, AWS |
+| Project | What it does | Stack | Status |
+|---|---|---|---|
+| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Automated adversarial testing for LLM APIs — 10 attack classes (A1–A10), OWASP×NIST crosswalk, signed Passport Report in JSON+HTML | Python, FastAPI, Docker | [![CI](https://github.com/giselleevita/vendor-red-team-passport/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/vendor-red-team-passport/actions/workflows/ci.yml) |
+| [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Runtime policy enforcement gateway for LLM agents — OPA, SSRF defense, DLP scanner, tamper-evident audit log | Python, FastAPI, OPA, Redis | ![v0.1.0](https://img.shields.io/badge/release-v0.1.0-blue) |
+| [ToolShield](https://github.com/giselleevita/ToolShield) | Prompt injection detection for tool-using LLM agents — bachelor thesis, 200+ tests, ablation study | Python, LangChain, FastAPI | ✅ |
+| [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot-) | RAG assistant grounded in NIST/CISA corpus with guardrails, citations, and audit logging | Python, Chroma, FastAPI | ✅ |
+| [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Encrypted document storage on AWS with IAM, KMS, and S3 access controls | Terraform, HCL, AWS | ✅ |
+| [AegisAIS](https://github.com/giselleevita/aegisais) | AIS maritime data integrity checker — anomaly detection, map UI, alert workflows | Python, FastAPI, React | ✅ |
 
 ---
 
 ## What I Work With
 
-**AI/LLM:** LangChain · LlamaIndex · OpenAI API · Gemini · RAG pipelines · prompt injection detection · OPA policy-as-code  
-**Security:** threat modeling · NIST AI RMF · CISA guidance · SAST · audit logging · compliance automation  
+**AI/LLM:** LangChain · LlamaIndex · OpenAI API · Gemini · RAG pipelines · prompt injection detection · OPA policy-as-code · red-teaming  
+**Security:** threat modeling · NIST AI RMF · OWASP LLM Top 10 · CISA guidance · SAST · audit logging · compliance automation  
 **Backend:** Python · FastAPI · PostgreSQL · REST APIs  
 **Infrastructure:** Terraform · AWS (IAM, S3, KMS, VPC, CloudTrail) · Docker · GitHub Actions CI/CD  
 **Frontend:** React · TypeScript
