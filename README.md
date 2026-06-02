@@ -15,7 +15,7 @@
 | [ToolShield](https://github.com/giselleevita/ToolShield) | Prompt injection detection for tool-using LLM agents — bachelor thesis, 200+ tests, ablation study | Python, LangChain, FastAPI | ✅ |
 | [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot-) | RAG assistant grounded in NIST/CISA corpus with guardrails, citations, and audit logging | Python, Chroma, FastAPI | ✅ |
 | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Encrypted document storage on AWS with IAM, KMS, and S3 access controls | Terraform, HCL, AWS | ✅ |
-| [AegisAIS](https://github.com/giselleevita/aegisais) | AIS maritime data integrity checker — anomaly detection, map UI, alert workflows | Python, FastAPI, React | ✅ |
+| [AegisAIS](https://github.com/giselleevita/aegisais) | AIS maritime data integrity checker — anomaly detection, map UI, alert workflows | Python, FastAPI, React | 🔒 private — available on request |
 
 ---
 
