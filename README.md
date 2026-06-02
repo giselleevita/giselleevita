@@ -1,36 +1,36 @@
-# Giselle · AI Security & LLM Engineering
+# Giselle - Software Engineering & Cybersecurity
 
-> I build security-focused systems at the intersection of **AI/LLM agents**, **application security**, and **critical infrastructure** — with threat models, policy-as-code, and CI wired in from day one.
+I build secure, maintainable software systems: backend APIs, cloud infrastructure, data pipelines, and AI security tooling with tests, CI/CD, documentation, and auditability built in.
 
-📍 Copenhagen, DK &nbsp;·&nbsp; 🎓 BSc Computer Science (Cybersecurity) &nbsp;·&nbsp; 🔭 Open to AI Engineer & Security Engineer roles
+Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineering, cloud, data, and security engineering roles
 
----
+## Selected Project Portfolio
 
-## Featured Projects
+| Project | Why it matters | Stack |
+|---|---|---|
+| [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Client-style data delivery pipeline from CRM ingestion to warehouse modeling and BI-ready output. Shows Python ETL, dbt discipline, and GitHub Actions automation. | Python, BigQuery, dbt, Metabase, GitHub Actions |
+| [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Production-minded AWS network baseline with subnet segmentation, NAT, flow logs, and private service access patterns. | Terraform, AWS VPC, CloudWatch/S3 |
+| [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Least-privilege IAM baseline for account hardening, MFA enforcement, audit roles, and policy review. | Terraform, AWS IAM |
+| [network-security-lab](https://github.com/giselleevita/network-security-lab) | Practical infrastructure security lab covering segmentation, firewall rules, IDS/IPS thinking, and ISO 27001-aligned controls. | Python, Linux networking, security controls |
+| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Reproducible benchmark and policy-enforced runtime for safer tool-using LLM agents. Turns security evaluation into a CI gate. | Python, OPA, Docker, GitHub Actions |
+| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | FastAPI tool for reproducible LLM vendor red-team tests, OWASP/NIST mapping, and signed evidence reports. | Python, FastAPI, Docker |
 
-| Project | What it does | Stack | Status |
-|---|---|---|---|
-| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Automated adversarial testing for LLM APIs — 10 attack classes (A1–A10), OWASP×NIST crosswalk, signed Passport Report in JSON+HTML | Python, FastAPI, Docker | [![CI](https://github.com/giselleevita/vendor-red-team-passport/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/vendor-red-team-passport/actions/workflows/ci.yml) |
-| [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Runtime policy enforcement gateway for LLM agents — OPA, SSRF defense, DLP scanner, tamper-evident audit log | Python, FastAPI, OPA, Redis | ![v0.1.0](https://img.shields.io/badge/release-v0.1.0-blue) |
-| [ToolShield](https://github.com/giselleevita/ToolShield) | Prompt injection detection for tool-using LLM agents — bachelor thesis, 200+ tests, ablation study | Python, LangChain, FastAPI | ✅ |
-| [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot-) | RAG assistant grounded in NIST/CISA corpus with guardrails, citations, and audit logging | Python, Chroma, FastAPI | ✅ |
-| [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Encrypted document storage on AWS with IAM, KMS, and S3 access controls | Terraform, HCL, AWS | ✅ |
-| [AegisAIS](https://github.com/giselleevita/aegisais) | AIS maritime data integrity checker — anomaly detection, map UI, alert workflows | Python, FastAPI, React | 🔒 private — available on request |
+## Private / Deeper Work
 
----
+| Project | Focus | Access |
+|---|---|---|
+| ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. | Private, available on request |
+| AegisAIS | Maritime AIS data integrity checker with anomaly detection, map UI, and alert workflows. | Private, available on request |
+| Evidentia | Compliance evidence infrastructure for RBAC, audit logging, and evidence lifecycle workflows. | Private, available on request |
 
-## What I Work With
+## Working Strengths
 
-**AI/LLM:** LangChain · LlamaIndex · OpenAI API · Gemini · RAG pipelines · prompt injection detection · OPA policy-as-code · red-teaming  
-**Security:** threat modeling · NIST AI RMF · OWASP LLM Top 10 · CISA guidance · SAST · audit logging · compliance automation  
-**Backend:** Python · FastAPI · PostgreSQL · REST APIs  
-**Infrastructure:** Terraform · AWS (IAM, S3, KMS, VPC, CloudTrail) · Docker · GitHub Actions CI/CD  
-**Frontend:** React · TypeScript
+- Backend systems: Python, FastAPI, REST APIs, PostgreSQL, structured testing.
+- Cloud and infrastructure: Terraform, AWS IAM, VPC, S3, KMS, CloudTrail, Docker, GitHub Actions.
+- Data delivery: ingestion pipelines, validation, warehouse modeling, reproducible jobs.
+- Security engineering: threat modeling, least privilege, audit logging, OWASP/NIST mapping, security regression tests.
+- AI security: prompt-injection defenses, policy-as-code tool gateways, LLM red-teaming, evaluation harnesses.
 
----
+## How I Build
 
-## Approach
-
-I care about **clear threat models**, **tests that cover the security-relevant paths**, and **controls that are measurable, explainable, and automatable** — not just security claims in a README.
-
-Most of my work sits at the boundary between AI engineering and security engineering: building systems that use LLMs in production while keeping them safe, auditable, and bounded.
+I care about systems that can be explained, tested, operated, and reviewed. The projects above focus on clear architecture, measurable controls, practical documentation, and engineering choices that would hold up in a client or production-style environment.
