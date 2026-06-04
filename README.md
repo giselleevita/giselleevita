@@ -1,19 +1,27 @@
-# Giselle - Software Engineering & Cybersecurity
+# Giselle - Secure Cloud, Data & AI Governance Engineering
 
-I build secure, maintainable software systems: backend APIs, cloud infrastructure, data pipelines, and AI security tooling with tests, CI/CD, documentation, and auditability built in.
+I build secure, maintainable systems for cloud infrastructure, compliance workflows, data pipelines, and AI governance. My projects emphasize tested delivery, auditability, least privilege, CI/CD, and documentation that a reviewer or client team can actually use.
 
-Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineering, cloud, data, and security engineering roles
+Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineering, cloud, data, AI governance, and security engineering roles
 
 ## Selected Project Portfolio
 
 | Project | Why it matters | Stack |
 |---|---|---|
+| [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Compliance evidence API for sanctions screening decisions, case workflows, verifiable audit bundles, and deployment-ready operational docs. Strongest product-style backend project. | Python, FastAPI, Postgres, S3-compatible storage, Docker, GitHub Actions |
 | [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Client-style data delivery pipeline from CRM ingestion to warehouse modeling and BI-ready output. Shows Python ETL, dbt discipline, and GitHub Actions automation. | Python, BigQuery, dbt, Metabase, GitHub Actions |
 | [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Production-minded AWS network baseline with subnet segmentation, NAT, flow logs, and private service access patterns. | Terraform, AWS VPC, CloudWatch/S3 |
 | [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Least-privilege IAM baseline for account hardening, MFA enforcement, audit roles, and policy review. | Terraform, AWS IAM |
 | [network-security-lab](https://github.com/giselleevita/network-security-lab) | Practical infrastructure security lab covering segmentation, firewall rules, IDS/IPS thinking, and ISO 27001-aligned controls. | Python, Linux networking, security controls |
-| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Reproducible benchmark and policy-enforced runtime for safer tool-using LLM agents. Turns security evaluation into a CI gate. | Python, OPA, Docker, GitHub Actions |
 | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | FastAPI tool for reproducible LLM vendor red-team tests, OWASP/NIST mapping, and signed evidence reports. | Python, FastAPI, Docker |
+
+## Reviewer Shortlist
+
+If you only review three repositories, start here:
+
+1. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - backend API, evidence integrity, case workflows, deployment posture, and compliance documentation.
+2. [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) + [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) - secure AWS foundation with network and identity controls.
+3. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) - AI risk evaluation, OWASP/NIST mapping, and reproducible evidence reports.
 
 ## Private / Deeper Work
 
