@@ -1,27 +1,36 @@
-# Giselle - Secure Cloud, Data & AI Governance Engineering
+# Giselle - Secure Cloud, Backend & AI Governance Engineering
 
-I build secure, maintainable systems for cloud infrastructure, compliance workflows, data pipelines, and AI governance. My projects emphasize tested delivery, auditability, least privilege, CI/CD, and documentation that a reviewer or client team can actually use.
+I build secure, maintainable systems for compliance workflows, cloud infrastructure, data pipelines, and AI governance. My projects emphasize tested delivery, auditability, least privilege, CI/CD, and documentation that a reviewer or client team can actually use.
 
 Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineering, cloud, data, AI governance, and security engineering roles
+
+## Reviewer Shortlist
+
+If you only review four repositories, start here:
+
+1. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
+2. [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) - Policy-enforced runtime and benchmark for tool-using LLM agents, with OPA policy checks, canary leakage tests, and CI security gates.
+3. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) - LLM vendor red-team evaluation tool with OWASP/NIST mapping, deterministic scoring, sanitized evidence, and report generation.
+4. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
 
 ## Selected Project Portfolio
 
 | Project | Why it matters | Stack |
 |---|---|---|
-| [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Compliance evidence API for sanctions screening decisions, case workflows, verifiable audit bundles, and deployment-ready operational docs. Strongest product-style backend project. | Python, FastAPI, Postgres, S3-compatible storage, Docker, GitHub Actions |
-| [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Client-style data delivery pipeline from CRM ingestion to warehouse modeling and BI-ready output. Shows Python ETL, dbt discipline, and GitHub Actions automation. | Python, BigQuery, dbt, Metabase, GitHub Actions |
-| [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Production-minded AWS network baseline with subnet segmentation, NAT, flow logs, and private service access patterns. | Terraform, AWS VPC, CloudWatch/S3 |
-| [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Least-privilege IAM baseline for account hardening, MFA enforcement, audit roles, and policy review. | Terraform, AWS IAM |
-| [network-security-lab](https://github.com/giselleevita/network-security-lab) | Practical infrastructure security lab covering segmentation, firewall rules, IDS/IPS thinking, and ISO 27001-aligned controls. | Python, Linux networking, security controls |
-| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | FastAPI tool for reproducible LLM vendor red-team tests, OWASP/NIST mapping, and signed evidence reports. | Python, FastAPI, Docker |
+| [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Product-style backend API for compliance evidence, case review, signed audit bundles, scoped access, and operational documentation. | Python, FastAPI, Postgres, S3-compatible storage, Docker, GitHub Actions |
+| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Demonstrates AI security depth: treating the model as untrusted, enforcing policy outside the model, and measuring attack success/leakage in CI. | Python, OPA/Rego, Docker, GitHub Actions |
+| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Defensive LLM vendor testing with OWASP/NIST crosswalks, reproducible runs, sanitized evidence, and shareable reports. | Python, FastAPI, Docker |
+| [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Concrete AWS security pattern for user-owned document access, KMS encryption, presigned URLs, and audit trails. | Terraform, AWS Lambda, API Gateway, Cognito, S3, KMS, DynamoDB |
+| [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) | RAG assistant grounded in public NIST/CISA material with citations, guardrails, audit logging, and offline evals. | Python, FastAPI, RAG, Chroma, LLM APIs |
+| [network-security-lab](https://github.com/giselleevita/network-security-lab) | Practical security fundamentals lab covering firewall policy, segmentation, IDS/IPS rules, threat modeling, and ISO 27001 mapping. | Python, Linux networking, security controls |
 
-## Reviewer Shortlist
+## Supporting Repositories
 
-If you only review three repositories, start here:
-
-1. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - backend API, evidence integrity, case workflows, deployment posture, and compliance documentation.
-2. [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) + [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) - secure AWS foundation with network and identity controls.
-3. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) - AI risk evaluation, OWASP/NIST mapping, and reproducible evidence reports.
+| Project | Current Scope |
+|---|---|
+| [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Focused two-AZ VPC module with public/private subnets, single NAT gateway, ALB, optional WAF association, and CloudWatch VPC Flow Logs. |
+| [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Focused IAM module for an S3 bucket-scoped read-only role. |
+| [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Compact HubSpot-to-BigQuery full-refresh ingestion pipeline with transform tests and a sample dbt model. |
 
 ## Private / Deeper Work
 
