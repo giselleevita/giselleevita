@@ -6,17 +6,19 @@ Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineer
 
 ## Reviewer Shortlist
 
-If you only review four repositories, start here:
+If you only review five repositories, start here:
 
-1. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
-2. [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) - Policy-enforced runtime and benchmark for tool-using LLM agents, with OPA policy checks, canary leakage tests, and CI security gates.
-3. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) - LLM vendor red-team evaluation tool with OWASP/NIST mapping, deterministic scoring, sanitized evidence, and report generation.
-4. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
+1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit.
+2. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
+3. [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) - Policy-enforced runtime and benchmark for tool-using LLM agents, with OPA policy checks, canary leakage tests, and CI security gates.
+4. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) - LLM vendor red-team evaluation tool with OWASP/NIST mapping, deterministic scoring, sanitized evidence, and report generation.
+5. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
 
 ## Selected Project Portfolio
 
 | Project | Why it matters | Stack |
 |---|---|---|
+| [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Enforces deterministic policy at the LLM tool-call boundary, including approvals, DLP/canary checks, rate limits, and verifiable audit events. | Python, FastAPI, OPA/Rego, Docker, GitHub Actions |
 | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Product-style backend API for compliance evidence, case review, signed audit bundles, scoped access, and operational documentation. | Python, FastAPI, Postgres, S3-compatible storage, Docker, GitHub Actions |
 | [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Demonstrates AI security depth: treating the model as untrusted, enforcing policy outside the model, and measuring attack success/leakage in CI. | Python, OPA/Rego, Docker, GitHub Actions |
 | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Defensive LLM vendor testing with OWASP/NIST crosswalks, reproducible runs, sanitized evidence, and shareable reports. | Python, FastAPI, Docker |
