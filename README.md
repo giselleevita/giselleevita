@@ -1,4 +1,4 @@
-# Giselle - Secure Cloud, Backend & AI Governance Engineering
+# Giselle Evita Koch - Secure Cloud, Backend & AI Governance Engineering
 
 I build secure, maintainable systems for compliance workflows, cloud infrastructure, data pipelines, and AI governance. My projects emphasize tested delivery, auditability, least privilege, CI/CD, and documentation that a reviewer or client team can actually use.
 
@@ -10,9 +10,9 @@ If you only review five repositories, start here:
 
 1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit.
 2. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
-3. [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) - Policy-enforced runtime and benchmark for tool-using LLM agents, with OPA policy checks, canary leakage tests, and CI security gates.
-4. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) - LLM vendor red-team evaluation tool with OWASP/NIST mapping, deterministic scoring, sanitized evidence, and report generation.
-5. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
+3. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
+4. [crm-pipeline](https://github.com/giselleevita/crm-pipeline) - HubSpot-to-BigQuery ingestion pipeline with tested transformations, explicit warehouse schemas, and scheduled automation.
+5. [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) - Grounded RAG assistant over public NIST/CISA guidance with citations, guardrails, audit logging, and offline evaluations.
 
 ## Selected Project Portfolio
 
@@ -20,11 +20,9 @@ If you only review five repositories, start here:
 |---|---|---|
 | [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Enforces deterministic policy at the LLM tool-call boundary, including approvals, DLP/canary checks, rate limits, and verifiable audit events. | Python, FastAPI, OPA/Rego, Docker, GitHub Actions |
 | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Product-style backend API for compliance evidence, case review, signed audit bundles, scoped access, and operational documentation. | Python, FastAPI, Postgres, S3-compatible storage, Docker, GitHub Actions |
-| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Demonstrates AI security depth: treating the model as untrusted, enforcing policy outside the model, and measuring attack success/leakage in CI. | Python, OPA/Rego, Docker, GitHub Actions |
-| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Defensive LLM vendor testing with OWASP/NIST crosswalks, reproducible runs, sanitized evidence, and shareable reports. | Python, FastAPI, Docker |
 | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Concrete AWS security pattern for user-owned document access, KMS encryption, presigned URLs, and audit trails. | Terraform, AWS Lambda, API Gateway, Cognito, S3, KMS, DynamoDB |
+| [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Demonstrates a compact client-style data ingestion path with tested transforms, explicit schemas, and scheduled delivery. | Python, HubSpot API, BigQuery, dbt, GitHub Actions |
 | [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) | RAG assistant grounded in public NIST/CISA material with citations, guardrails, audit logging, and offline evals. | Python, FastAPI, RAG, Chroma, LLM APIs |
-| [network-security-lab](https://github.com/giselleevita/network-security-lab) | Practical security fundamentals lab covering firewall policy, segmentation, IDS/IPS rules, threat modeling, and ISO 27001 mapping. | Python, Linux networking, security controls |
 
 ## Supporting Repositories
 
@@ -32,7 +30,9 @@ If you only review five repositories, start here:
 |---|---|
 | [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Focused two-AZ VPC module with public/private subnets, single NAT gateway, ALB, optional WAF association, and CloudWatch VPC Flow Logs. |
 | [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Focused IAM module for an S3 bucket-scoped read-only role. |
-| [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Compact HubSpot-to-BigQuery full-refresh ingestion pipeline with transform tests and a sample dbt model. |
+| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Research-oriented benchmark for measuring prompt-injection resilience and utility tradeoffs. |
+| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Focused LLM vendor evaluation and evidence-reporting tool. |
+| [network-security-lab](https://github.com/giselleevita/network-security-lab) | Practical security fundamentals lab covering firewall policy, segmentation, IDS/IPS rules, and threat modeling. |
 
 ## Private / Deeper Work
 
