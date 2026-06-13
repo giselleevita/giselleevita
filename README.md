@@ -39,7 +39,7 @@ If you only review five repositories, start here:
 | Project | Focus | Access |
 |---|---|---|
 | ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/ToolShield/blob/main/docs/REVIEWER_GUIDE.md), split hygiene tests, metrics module. | Private, available on request |
-| AegisAIS | Maritime AIS data integrity checker with anomaly detection, map UI, and alert workflows. **15-min review:** architecture docs, supply-chain CI, frontend map demo. | Private, available on request |
+| AegisAIS | Maritime AIS data integrity checker with anomaly detection, map UI, and alert workflows. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md), supply-chain CI, detection rules in `apps/api`. | Private, available on request |
 | Evidentia | Compliance evidence infrastructure for RBAC, audit logging, and evidence lifecycle workflows. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md), architecture diagram, evidence lifecycle tests. | Private, available on request |
 
 ## Working Strengths
