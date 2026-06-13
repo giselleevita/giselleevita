@@ -8,7 +8,7 @@ Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineer
 
 If you only review five repositories, start here:
 
-1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.3.0**
+1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.3.0** — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md)
 2. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
 3. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
 4. [crm-pipeline](https://github.com/giselleevita/crm-pipeline) - HubSpot-to-BigQuery ingestion pipeline with tested transformations, explicit warehouse schemas, and scheduled automation.
