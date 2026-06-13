@@ -8,11 +8,11 @@ Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineer
 
 If you only review five repositories, start here:
 
-1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.4.0** — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md), [blog post](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md)
+1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.5.0** — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md), [blog post](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md), [cross-post drafts](https://github.com/giselleevita/agent-security-gate/tree/main/docs/blog/cross-posts)
 2. [evidentia](https://github.com/giselleevita/evidentia) - Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, and a React compliance portal. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md)
-3. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
-4. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
-5. [crm-pipeline](https://github.com/giselleevita/crm-pipeline) - HubSpot-to-BigQuery ingestion pipeline with tested transformations, explicit warehouse schemas, and scheduled automation.
+3. [aegisais](https://github.com/giselleevita/aegisais) - Maritime AIS integrity checker with anomaly detection, map UI, and alert workflows. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md)
+4. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
+5. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
 
 ## Selected Project Portfolio
 
@@ -20,6 +20,7 @@ If you only review five repositories, start here:
 |---|---|---|
 | [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Enforces deterministic policy at the LLM tool-call boundary, including approvals, DLP/canary checks, rate limits, and verifiable audit events. | Python, FastAPI, OPA/Rego, Docker, GitHub Actions |
 | [evidentia](https://github.com/giselleevita/evidentia) | Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, incident tracking, and external integrations. | Kotlin, Spring Boot, React, PostgreSQL, Docker |
+| [aegisais](https://github.com/giselleevita/aegisais) | Maritime AIS integrity platform with anomaly detection rules, geospatial BFF, map UI, and Prometheus metrics. | Python, FastAPI, React, Docker, GitHub Actions |
 | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Product-style backend API for compliance evidence, case review, signed audit bundles, scoped access, and operational documentation. | Python, FastAPI, Postgres, S3-compatible storage, Docker, GitHub Actions |
 | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Concrete AWS security pattern for user-owned document access, KMS encryption, presigned URLs, and audit trails. | Terraform, AWS Lambda, API Gateway, Cognito, S3, KMS, DynamoDB |
 | [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Demonstrates a compact client-style data ingestion path with tested transforms, explicit schemas, and scheduled delivery. | Python, HubSpot API, BigQuery, dbt, GitHub Actions |
@@ -40,8 +41,6 @@ If you only review five repositories, start here:
 | Project | Focus | Access |
 |---|---|---|
 | ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/ToolShield/blob/main/docs/REVIEWER_GUIDE.md), split hygiene tests, metrics module. | Private, available on request |
-| AegisAIS | Maritime AIS data integrity checker with anomaly detection, map UI, and alert workflows. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md), supply-chain CI, detection rules in `apps/api`. | Private, available on request |
-| Evidentia | Compliance evidence infrastructure for RBAC, audit logging, and evidence lifecycle workflows. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md), architecture diagram, evidence lifecycle tests. | [Public repo](https://github.com/giselleevita/evidentia) |
 
 ## Working Strengths
 
