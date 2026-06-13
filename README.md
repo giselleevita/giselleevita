@@ -8,7 +8,7 @@ Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineer
 
 If you only review five repositories, start here:
 
-1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit.
+1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.3.0**
 2. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
 3. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
 4. [crm-pipeline](https://github.com/giselleevita/crm-pipeline) - HubSpot-to-BigQuery ingestion pipeline with tested transformations, explicit warehouse schemas, and scheduled automation.
@@ -38,9 +38,9 @@ If you only review five repositories, start here:
 
 | Project | Focus | Access |
 |---|---|---|
-| ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. | Private, available on request |
-| AegisAIS | Maritime AIS data integrity checker with anomaly detection, map UI, and alert workflows. | Private, available on request |
-| Evidentia | Compliance evidence infrastructure for RBAC, audit logging, and evidence lifecycle workflows. | Private, available on request |
+| ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. **15-min review:** thesis README, test suite, evaluation harness. | Private, available on request |
+| AegisAIS | Maritime AIS data integrity checker with anomaly detection, map UI, and alert workflows. **15-min review:** architecture docs, supply-chain CI, frontend map demo. | Private, available on request |
+| Evidentia | Compliance evidence infrastructure for RBAC, audit logging, and evidence lifecycle workflows. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md), architecture diagram, evidence lifecycle tests. | Private, available on request |
 
 ## Working Strengths
 
