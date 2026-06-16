@@ -41,6 +41,7 @@ If you only review five repositories, start here:
 | Project | Focus | Access |
 |---|---|---|
 | ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/ToolShield/blob/main/docs/REVIEWER_GUIDE.md), split hygiene tests, metrics module. | Private, available on request |
+| Abrahamic | Cross-tradition comparison platform (Next.js, Prisma, editorial workflows). **Live demo:** [abrahamic.vercel.app](https://abrahamic.vercel.app) — license-free public content. | Private repo, public demo |
 
 ## Working Strengths
 
