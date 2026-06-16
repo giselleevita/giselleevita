@@ -6,13 +6,14 @@ Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineer
 
 ## Reviewer Shortlist
 
-If you only review five repositories, start here:
+If you only review a handful of projects, start here:
 
 1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.5.0** — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md), [blog post](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md), [cross-post drafts](https://github.com/giselleevita/agent-security-gate/tree/main/docs/blog/cross-posts)
 2. [evidentia](https://github.com/giselleevita/evidentia) - Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, and a React compliance portal. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md)
 3. [aegisais](https://github.com/giselleevita/aegisais) - Maritime AIS integrity checker with anomaly detection, map UI, and alert workflows. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md)
 4. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
 5. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
+6. [abrahamic](https://abrahamic.vercel.app) - Cross-tradition scripture comparison platform (Next.js, Prisma, editorial workflows). **Live demo** with license-free content — **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/abrahamic/blob/main/docs/REVIEWER_GUIDE.md), [content policy](https://abrahamic.vercel.app/licensing). Private repo; no clone required for initial review.
 
 ## Selected Project Portfolio
 
@@ -41,7 +42,7 @@ If you only review five repositories, start here:
 | Project | Focus | Access |
 |---|---|---|
 | ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/ToolShield/blob/main/docs/REVIEWER_GUIDE.md), split hygiene tests, metrics module. | Private, available on request |
-| Abrahamic | Cross-tradition comparison platform (Next.js, Prisma, editorial workflows). **Live demo:** [abrahamic.vercel.app](https://abrahamic.vercel.app) — license-free public content. | Private repo, public demo |
+| Abrahamic | Cross-tradition comparison platform (Next.js, Prisma, editorial workflows). **Live demo:** [abrahamic.vercel.app](https://abrahamic.vercel.app) — license-free public content. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/abrahamic/blob/main/docs/REVIEWER_GUIDE.md) | Private repo, public demo |
 
 ## Working Strengths
 
