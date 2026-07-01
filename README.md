@@ -2,6 +2,8 @@
 
 I build secure, maintainable systems for compliance workflows, cloud infrastructure, data pipelines, and AI governance. My projects emphasize tested delivery, auditability, least privilege, CI/CD, and documentation that a reviewer or client team can actually use.
 
+**Portfolio site:** [giselleevita.github.io/portfolio](https://giselleevita.github.io/portfolio/)
+
 Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineering, cloud, data, AI governance, and security engineering roles
 
 ## Reviewer Shortlist
