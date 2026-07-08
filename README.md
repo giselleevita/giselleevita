@@ -6,7 +6,7 @@ I build enforceable security for AI agents and compliance platforms — policy a
 
 **Portfolio site:** [giselleevita.github.io/portfolio](https://giselleevita.github.io/portfolio/)
 
-**Live demo:** [agent-security-gate demo](https://github.com/giselleevita/agent-security-gate#try-it) *(coming soon — Fly.io)*
+**Live demo:** [agent-security-gate demo](https://github.com/giselleevita/agent-security-gate#try-it) — [deploy guide](https://github.com/giselleevita/agent-security-gate/blob/main/docs/demo-deployment.md)
 
 Copenhagen, DK | BSc Computer Science, Cybersecurity
 
@@ -19,7 +19,9 @@ If you only review a handful of projects, start here:
 3. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) — LLM vendor red-teaming with 10 attack classes, OWASP/NIST mapping, deterministic scoring gates, and tamper-evident Passport Reports. **15-min review:** [CASE_STUDY](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/CASE_STUDY.md)
 4. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) — Product-style compliance evidence API with case workflows, signed audit bundles, and scoped access.
 5. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) — Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
-6. [evidentia](https://github.com/giselleevita/evidentia) — Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, and a React compliance portal. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md)
+6. [sai-platform](https://github.com/giselleevita/sai-platform) — AI governance platform with risk scoring, evidence workflows, and audit logging.
+
+_Supporting:_ [evidentia](https://github.com/giselleevita/evidentia) — Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, and a React compliance portal. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md)
 
 ## Selected Project Portfolio
 
@@ -53,7 +55,7 @@ If you only review a handful of projects, start here:
 
 | Project | Focus | Access |
 |---|---|---|
-| [sai-platform](https://github.com/giselleevita/sai-platform) | Full-stack AI governance with risk scoring, evidence workflows, and audit logging. | Private — opening community edition soon |
+| [sai-platform](https://github.com/giselleevita/sai-platform) | Full-stack AI governance with risk scoring, evidence workflows, and audit logging. | **Public** — pin as 6th repo |
 | ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. | Private, available on request |
 
 ## Working Strengths
