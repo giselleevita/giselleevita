@@ -1,6 +1,6 @@
 # Giselle Evita Koch - Secure Cloud, Backend & AI Governance Engineering
 
-I build secure, maintainable systems for compliance workflows, cloud infrastructure, data pipelines, and AI governance. My projects emphasize tested delivery, auditability, least privilege, CI/CD, and documentation that a reviewer or client team can actually use.
+I build enforceable security for AI agents and compliance platforms — policy at the tool-call boundary, not just the prompt. My projects emphasize tested delivery, auditability, least privilege, CI/CD, and documentation that a reviewer or hiring manager can verify in 15 minutes.
 
 **Portfolio site:** [giselleevita.github.io/portfolio](https://giselleevita.github.io/portfolio/)
 
@@ -10,10 +10,10 @@ Copenhagen, DK | BSc Computer Science, Cybersecurity | Open to software engineer
 
 If you only review a handful of projects, start here:
 
-1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.5.0** — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md), [blog post](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md), [cross-post drafts](https://github.com/giselleevita/agent-security-gate/tree/main/docs/blog/cross-posts)
+1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) - Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.6.0** — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md), [blog post](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md), [cross-post drafts](https://github.com/giselleevita/agent-security-gate/tree/main/docs/blog/cross-posts)
 2. [evidentia](https://github.com/giselleevita/evidentia) - Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, and a React compliance portal. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md)
 3. [aegisais](https://github.com/giselleevita/aegisais) - Maritime AIS integrity checker with anomaly detection, map UI, and alert workflows. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md)
-4. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) - FastAPI compliance evidence API for sanctions screening, case workflows, scoped API keys, signed bundles, deployment docs, and test coverage.
+4. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) - LLM vendor red-teaming with 10 attack classes, OWASP/NIST mapping, deterministic scoring gates, and tamper-evident Passport Reports. **15-min review:** [CASE_STUDY](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/CASE_STUDY.md)
 5. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) - Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
 6. [abrahamic](https://abrahamic.vercel.app) - Cross-tradition scripture comparison platform (Next.js, Prisma, editorial workflows). **Live demo** with license-free content — **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/abrahamic/blob/main/docs/REVIEWER_GUIDE.md), [content policy](https://abrahamic.vercel.app/licensing). Private repo; no clone required for initial review.
 
@@ -24,6 +24,7 @@ If you only review a handful of projects, start here:
 | [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Enforces deterministic policy at the LLM tool-call boundary, including approvals, DLP/canary checks, rate limits, and verifiable audit events. | Python, FastAPI, OPA/Rego, Docker, GitHub Actions |
 | [evidentia](https://github.com/giselleevita/evidentia) | Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, incident tracking, and external integrations. | Kotlin, Spring Boot, React, PostgreSQL, Docker |
 | [aegisais](https://github.com/giselleevita/aegisais) | Maritime AIS integrity platform with anomaly detection rules, geospatial BFF, map UI, and Prometheus metrics. | Python, FastAPI, React, Docker, GitHub Actions |
+| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Reproducible LLM vendor evaluation with adversarial test suites, OWASP/NIST crosswalk, and signed Passport Reports for procurement review. | Python, FastAPI, Docker, GitHub Actions |
 | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Product-style backend API for compliance evidence, case review, signed audit bundles, scoped access, and operational documentation. | Python, FastAPI, Postgres, S3-compatible storage, Docker, GitHub Actions |
 | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Concrete AWS security pattern for user-owned document access, KMS encryption, presigned URLs, and audit trails. | Terraform, AWS Lambda, API Gateway, Cognito, S3, KMS, DynamoDB |
 | [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Demonstrates a compact client-style data ingestion path with tested transforms, explicit schemas, and scheduled delivery. | Python, HubSpot API, BigQuery, dbt, GitHub Actions |
@@ -36,7 +37,6 @@ If you only review a handful of projects, start here:
 | [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Focused two-AZ VPC module with public/private subnets, single NAT gateway, ALB, optional WAF association, and CloudWatch VPC Flow Logs. |
 | [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Focused IAM module for an S3 bucket-scoped read-only role. |
 | [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Research-oriented benchmark for measuring prompt-injection resilience and utility tradeoffs. |
-| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Focused LLM vendor evaluation and evidence-reporting tool. |
 | [network-security-lab](https://github.com/giselleevita/network-security-lab) | Practical security fundamentals lab covering firewall policy, segmentation, IDS/IPS rules, and threat modeling. |
 
 ## Private / Deeper Work
