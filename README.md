@@ -29,6 +29,7 @@ Evaluate → Enforce → Govern → Evidence → Ship
 - **Flagship:** [agent-security-gate v0.6.0](https://github.com/giselleevita/agent-security-gate) — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md) · [benchmark results](https://github.com/giselleevita/agent-security-gate/blob/main/docs/benchmark-results/latest.md) · [blog post](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md)
 - **Red-team:** [vendor-red-team-passport CASE_STUDY](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/CASE_STUDY.md)
 - **RAG evals:** [security-compliance-copilot evals](https://github.com/giselleevita/security-compliance-copilot/tree/main/evals)
+- **Recruiter packet:** [RECRUITER_PACKET.md](https://github.com/giselleevita/agent-security-gate/blob/main/docs/RECRUITER_PACKET.md)
 
 ---
 
