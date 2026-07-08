@@ -6,7 +6,7 @@ I focus on the infrastructure around AI agents: policy enforcement, tool-call se
 
 **Portfolio site:** [giselleevita.github.io/portfolio](https://giselleevita.github.io/portfolio/)
 
-**Live demo:** [agent-security-gate](https://github.com/giselleevita/agent-security-gate#try-it) — [deploy guide](https://github.com/giselleevita/agent-security-gate/blob/main/docs/demo-deployment.md)
+**Live demo:** [asg-demo.fly.dev](https://asg-demo.fly.dev/demo) — `test-token` · [deploy guide](https://github.com/giselleevita/agent-security-gate/blob/main/docs/demo-deployment.md)
 
 Copenhagen, DK | BSc Computer Science, Cybersecurity
 
