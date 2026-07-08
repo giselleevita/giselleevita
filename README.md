@@ -1,71 +1,70 @@
-# Giselle Evita Koch — AgentOps & AI Security Platform Engineering
+# I build enforceable AI security systems
 
-I build enforceable security for AI agents and compliance platforms — policy at the tool-call boundary, not just the prompt. My projects emphasize tested delivery, auditability, least privilege, CI/CD, and documentation that a reviewer or hiring manager can verify in 15 minutes.
+I focus on the infrastructure around AI agents: policy enforcement, tool-call security, red-team evaluation, RAG governance, and audit evidence. My projects emphasize tested delivery, auditability, and documentation a reviewer can verify in 15 minutes.
 
-**Target roles:** Agentic Systems Engineer · AI Security Platform Engineer
+**Target roles:** AI Security Engineer · Agentic AI Platform Engineer · LLM Security Engineer · AI Governance Engineer
 
 **Portfolio site:** [giselleevita.github.io/portfolio](https://giselleevita.github.io/portfolio/)
 
-**Live demo:** [agent-security-gate demo](https://github.com/giselleevita/agent-security-gate#try-it) — [deploy guide](https://github.com/giselleevita/agent-security-gate/blob/main/docs/demo-deployment.md)
+**Live demo:** [agent-security-gate](https://github.com/giselleevita/agent-security-gate#try-it) — [deploy guide](https://github.com/giselleevita/agent-security-gate/blob/main/docs/demo-deployment.md)
 
 Copenhagen, DK | BSc Computer Science, Cybersecurity
 
-## Reviewer Shortlist
+---
 
-If you only review a handful of projects, start here:
+## Featured work
 
-1. [agent-security-gate](https://github.com/giselleevita/agent-security-gate) — Runtime policy enforcement gateway for tool-using LLM agents with OPA decisions, approval workflows, DLP controls, and tamper-evident audit. **Latest release: v0.6.0** — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md), [blog post](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md)
-2. [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) — RAG assistant grounded in public NIST/CISA material with citations, guardrails, audit logging, and offline evals.
-3. [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) — LLM vendor red-teaming with 10 attack classes, OWASP/NIST mapping, deterministic scoring gates, and tamper-evident Passport Reports. **15-min review:** [CASE_STUDY](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/CASE_STUDY.md)
-4. [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) — Product-style compliance evidence API with case workflows, signed audit bundles, and scoped access.
-5. [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) — Serverless AWS document-storage pattern using Cognito, API Gateway, Lambda, S3, KMS, DynamoDB ownership checks, and audit logging.
-6. [sai-platform](https://github.com/giselleevita/sai-platform) — AI governance platform with risk scoring, evidence workflows, and audit logging.
+Evaluate → Enforce → Govern → Evidence → Ship
 
-_Supporting:_ [evidentia](https://github.com/giselleevita/evidentia) — Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, and a React compliance portal. **15-min review:** [REVIEWER_GUIDE](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md)
+| # | Project | Layer |
+|---|---------|-------|
+| 1 | [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | **Enforce** — runtime policy gateway for AI agent tool calls |
+| 2 | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | **Evaluate** — vendor/model security assessment reports |
+| 3 | [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) | **Govern** — cited governance assistant with offline evals |
+| 4 | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | **Evidence** — signed compliance evidence bundles |
+| 5 | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | **Ship** — secure cloud document architecture |
 
-## Selected Project Portfolio
+### Quick links
 
-| Project | Why it matters | Stack |
-|---|---|---|
-| [agent-security-gate](https://github.com/giselleevita/agent-security-gate) | Enforces deterministic policy at the LLM tool-call boundary, including approvals, DLP/canary checks, rate limits, and verifiable audit events. | Python, FastAPI, OPA/Rego, Docker, GitHub Actions |
-| [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) | RAG assistant grounded in public NIST/CISA material with citations, guardrails, audit logging, and offline evals. | Python, FastAPI, RAG, Chroma, LLM APIs |
-| [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | Reproducible LLM vendor evaluation with adversarial test suites, OWASP/NIST crosswalk, and signed Passport Reports for procurement review. | Python, FastAPI, Docker, GitHub Actions |
-| [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Product-style backend API for compliance evidence, case review, signed audit bundles, scoped access, and operational documentation. | Python, FastAPI, Postgres, S3-compatible storage, Docker, GitHub Actions |
-| [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Concrete AWS security pattern for user-owned document access, KMS encryption, presigned URLs, and audit trails. | Terraform, AWS Lambda, API Gateway, Cognito, S3, KMS, DynamoDB |
-| [evidentia](https://github.com/giselleevita/evidentia) | Multi-service compliance evidence platform with lifecycle workflows, tenant-scoped audit logging, incident tracking, and external integrations. | Kotlin, Spring Boot, React, PostgreSQL, Docker |
+- **Flagship:** [agent-security-gate v0.6.0](https://github.com/giselleevita/agent-security-gate) — [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md) · [benchmark results](https://github.com/giselleevita/agent-security-gate/blob/main/docs/benchmark-results/latest.md) · [blog post](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md)
+- **Red-team:** [vendor-red-team-passport CASE_STUDY](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/CASE_STUDY.md)
+- **RAG evals:** [security-compliance-copilot evals](https://github.com/giselleevita/security-compliance-copilot/tree/main/evals)
 
-## Other Work
+---
+
+## Working strengths
+
+- **AI security:** tool-boundary enforcement, OPA policy-as-code, prompt-injection defenses, LLM red-teaming, evaluation harnesses
+- **Backend systems:** Python, FastAPI, REST APIs, PostgreSQL, structured testing
+- **Cloud and infrastructure:** Terraform, AWS IAM, VPC, S3, KMS, Docker, GitHub Actions
+- **Security engineering:** threat modeling, least privilege, audit logging, OWASP/NIST mapping
+
+---
+
+## Supporting repositories
+
+Not part of the featured stack — available for deeper review:
 
 | Project | Notes |
-|---|---|
-| [aegisais](https://github.com/giselleevita/aegisais) | Maritime AIS integrity platform with anomaly detection, map UI, and alert workflows. |
-| [abrahamic](https://abrahamic.vercel.app) | Cross-tradition scripture comparison platform (Next.js, Prisma). **Live demo** — private repo. |
-| [crm-pipeline](https://github.com/giselleevita/crm-pipeline) | Compact HubSpot-to-BigQuery ingestion with tested transforms and scheduled CI. |
+|---------|-------|
+| [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Two-AZ VPC module with WAF and flow logs |
+| [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Least-privilege S3 read-only IAM role |
+| [aegisais](https://github.com/giselleevita/aegisais) | Maritime AIS integrity and anomaly detection |
+| [evidentia](https://github.com/giselleevita/evidentia) | Multi-tenant compliance evidence (supporting) |
+| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Archived — continued in agent-security-gate |
 
-## Supporting Repositories
+---
 
-| Project | Current Scope |
-|---|---|
-| [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Focused two-AZ VPC module with public/private subnets, single NAT gateway, ALB, optional WAF association, and CloudWatch VPC Flow Logs. |
-| [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Focused IAM module for an S3 bucket-scoped read-only role. |
-| [llm-agent-security-benchmark](https://github.com/giselleevita/llm-agent-security-benchmark) | Archived — active development continues in [agent-security-gate](https://github.com/giselleevita/agent-security-gate). |
-| [network-security-lab](https://github.com/giselleevita/network-security-lab) | Practical security fundamentals lab covering firewall policy, segmentation, IDS/IPS rules, and threat modeling. |
-
-## Private / Deeper Work
+## Private / deeper work
 
 | Project | Focus | Access |
-|---|---|---|
-| [sai-platform](https://github.com/giselleevita/sai-platform) | Full-stack AI governance with risk scoring, evidence workflows, and audit logging. | **Public** — pin as 6th repo |
-| ToolShield | Bachelor thesis on prompt-injection detection for tool-using LLM agents, with 200+ tests and ablation work. | Private, available on request |
+|---------|-------|--------|
+| ToolShield | Bachelor thesis — prompt-injection detection benchmark for tool-using agents (200+ tests). Research absorbed into [agent-security-gate benchmark](https://github.com/giselleevita/agent-security-gate/tree/main/benchmark). | Private, available on request |
+| [sai-platform](https://github.com/giselleevita/sai-platform) | AI governance platform (supporting; featured evidence API is ProofRail) | Public |
+| [abrahamic](https://abrahamic.vercel.app) | Cross-tradition scripture comparison — live demo | Private repo |
 
-## Working Strengths
+---
 
-- Backend systems: Python, FastAPI, REST APIs, PostgreSQL, structured testing.
-- Cloud and infrastructure: Terraform, AWS IAM, VPC, S3, KMS, CloudTrail, Docker, GitHub Actions.
-- Data delivery: ingestion pipelines, validation, warehouse modeling, reproducible jobs.
-- Security engineering: threat modeling, least privilege, audit logging, OWASP/NIST mapping, security regression tests.
-- AI security: prompt-injection defenses, policy-as-code tool gateways, LLM red-teaming, evaluation harnesses.
+## How I build
 
-## How I Build
-
-I care about systems that can be explained, tested, operated, and reviewed. The projects above focus on clear architecture, measurable controls, practical documentation, and engineering choices that would hold up in a client or production-style environment.
+Systems that can be explained, tested, operated, and reviewed in 15 minutes. Clear architecture, measurable controls, and documentation that holds up under technical interview scrutiny.
