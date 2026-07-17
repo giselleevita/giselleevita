@@ -1,47 +1,25 @@
-I build enforceable AI security systems for agentic workflows — vendor red-teaming, deterministic tool-boundary policy enforcement, grounded governance RAG, verifiable audit evidence, and secure cloud deployment.
+# Hi, I'm Giselle 👋
 
-**Portfolio:** [giselleevita.github.io/portfolio](https://giselleevita.github.io/portfolio/) · **Try ASG free:** [agent-security-gate](https://github.com/giselleevita/agent-security-gate#quick-start-local-free) (`docker compose up`)
+**I build enforceable AI security systems** — policy that runs *before* agent tool calls execute, not after damage.
 
-Copenhagen, DK · BSc Computer Science, Cybersecurity
+📍 Relocating to **Zürich, September 2026** (EU citizen — no permit hurdles) · B.Sc. Computer Science, TU Darmstadt · Thesis: *Runtime Policy Enforcement for LLM-based Agents*
 
----
-
-## Featured work
+## The stack — Evaluate → Enforce → Govern → Evidence → Ship
 
 | Layer | Repo | What it proves |
 |---|---|---|
-| Evaluate | [`vendor-red-team-passport`](https://github.com/giselleevita/vendor-red-team-passport) | Offensive LLM/vendor assurance and risk reporting |
-| Enforce | [`agent-security-gate`](https://github.com/giselleevita/agent-security-gate) | OPA-based policy enforcement before agent tool execution |
-| Govern | [`security-compliance-copilot`](https://github.com/giselleevita/security-compliance-copilot) | Grounded compliance guidance with citations and offline evals |
-| Evidence | [`proofrail-evidence-api`](https://github.com/giselleevita/proofrail-evidence-api) | Signed, verifiable compliance evidence bundles |
-| Ship | [`secure-docs-aws`](https://github.com/giselleevita/secure-docs-aws) | Secure AWS reference architecture for real infrastructure |
+| **Evaluate** | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | LLM vendor red-teaming — 10 attack classes, OWASP/NIST mapped, tamper-evident reports |
+| **Enforce** | [agent-security-gate](https://github.com/giselleevita/agent-security-gate) ⭐ | Runtime policy gateway for agent tool calls — OPA/Rego, approvals, DLP, hash-chained audit · 167 tests · v0.6.0 |
+| **Govern** | [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) | Grounded NIST/CISA RAG with citations, guardrails, offline evals |
+| **Evidence** | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Signed, verifiable compliance evidence bundles |
+| **Ship** | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Secure AWS baseline — Cognito, KMS, IAM least privilege, tfsec/tflint CI |
 
-**Evaluate → Enforce → Govern → Evidence → Ship**
+**Start here:** [agent-security-gate](https://github.com/giselleevita/agent-security-gate) — watch the README GIF, or `docker compose up` and see four policy decisions in 30 seconds.
 
----
+## Writing
+- [Why Agent Security Belongs at the Tool-Call Boundary](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md)
 
-## Quick review paths
+## Contact
+🌐 [Portfolio](https://giselleevita.github.io/portfolio/) · 💼 [LinkedIn](https://linkedin.com/in/giselle-koch) · ✉️ giselle.evita@gmail.com
 
-- **Enforce:** [technical brief](https://github.com/giselleevita/agent-security-gate/blob/main/docs/technical-brief.md) · [benchmark](https://github.com/giselleevita/agent-security-gate/blob/main/docs/benchmark-results/latest.md)
-- **Evaluate:** [CASE_STUDY](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/CASE_STUDY.md)
-- **Govern:** [offline evals](https://github.com/giselleevita/security-compliance-copilot/tree/main/evals)
-
----
-
-## Supporting repositories
-
-| Project | Notes |
-|---------|-------|
-| [terraform-aws-secure-vpc](https://github.com/giselleevita/terraform-aws-secure-vpc) | Two-AZ VPC module with WAF and flow logs |
-| [terraform-aws-iam-baseline](https://github.com/giselleevita/terraform-aws-iam-baseline) | Least-privilege S3 read-only IAM role |
-| [aegisais](https://github.com/giselleevita/aegisais) | Maritime AIS integrity and anomaly detection |
-| [evidentia](https://github.com/giselleevita/evidentia) | Multi-tenant compliance evidence (supporting) |
-
----
-
-## Private / deeper work
-
-| Project | Focus | Access |
-|---------|-------|--------|
-| ToolShield | Prompt-injection detection research (thesis). Methodology informs ASG benchmark. | Private, on request |
-| [sai-platform](https://github.com/giselleevita/sai-platform) | AI governance platform (supporting) | Public |
+🛠 Python · OPA/Rego · FastAPI · AWS · Terraform · Docker · GitHub Actions · 🇩🇪 German (native-level) · 🇬🇧 English (fluent)
