@@ -2,7 +2,7 @@
 
 **I build enforceable AI security systems** — policy that runs *before* agent tool calls execute, not after damage.
 
-📍 Relocating to **Zürich, September 2026** (EU citizen — no permit hurdles) · B.Sc. Computer Science, TU Darmstadt · Thesis: *Runtime Policy Enforcement for LLM-based Agents*
+📍 Copenhagen · open to roles in **Copenhagen & Zürich** (EU citizen — no permit hurdles) · B.Sc. Computer Science, TU Darmstadt · Thesis: *Runtime Policy Enforcement for LLM-based Agents*
 
 ## The stack — Evaluate → Enforce → Govern → Evidence → Ship
 
