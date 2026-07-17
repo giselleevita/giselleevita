@@ -18,6 +18,7 @@
 
 ## Writing
 - [Why Agent Security Belongs at the Tool-Call Boundary](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md)
+- [The Denial-Feedback Dilemma — and How to Evaluate It Without Fooling Yourself](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/how-to-evaluate-denial-feedback-honestly.md)
 
 ## Contact
 🌐 [Portfolio](https://giselleevita.github.io/portfolio/) · 💼 [LinkedIn](https://linkedin.com/in/giselle-koch) · ✉️ giselle.evita@gmail.com
