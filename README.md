@@ -8,8 +8,8 @@
 
 | Layer | Repo | What it proves |
 |---|---|---|
-| **Evaluate** | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | LLM vendor red-teaming — 10 attack classes, OWASP/NIST mapped, tamper-evident reports |
-| **Enforce** | [agent-security-gate](https://github.com/giselleevita/agent-security-gate) ⭐ | Runtime policy gateway for agent tool calls — OPA/Rego, approvals, DLP, hash-chained audit · 167 tests · v0.6.0 |
+| **Evaluate** | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | LLM vendor red-teaming — 10 attack classes, OWASP/NIST mapped, hash-manifested reports (HMAC-signed when configured) |
+| **Enforce** | [agent-security-gate](https://github.com/giselleevita/agent-security-gate) ⭐ | Runtime policy gateway for agent tool calls — OPA/Rego, approvals, DLP, hash-chained audit · CI + integration tested · v0.6.0 |
 | **Govern** | [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) | Grounded NIST/CISA RAG with citations, guardrails, offline evals |
 | **Evidence** | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Signed, verifiable compliance evidence bundles |
 | **Ship** | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Secure AWS baseline — Cognito, KMS, IAM least privilege, tfsec/tflint CI |
