@@ -2,7 +2,11 @@
 
 **I build enforceable AI security systems** — policy that runs *before* agent tool calls execute, not after damage.
 
+<img src="https://raw.githubusercontent.com/giselleevita/agent-security-gate/main/docs/assets/asg-demo.gif" alt="Agent Security Gate blocking unsafe AI agent tool calls" width="720" />
+
 📍 Copenhagen · open to roles in **Copenhagen & Zürich** (EU citizen — no permit hurdles) · B.Sc. Computer Science, TU Darmstadt · Thesis: *Runtime Policy Enforcement for LLM-based Agents*
+
+> **Start here:** [agent-security-gate](https://github.com/giselleevita/agent-security-gate) — `docker compose up` and see four policy decisions in 30 seconds.
 
 ## The stack — Evaluate → Enforce → Govern → Evidence → Ship
 
@@ -14,7 +18,8 @@
 | **Evidence** | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Signed, verifiable compliance evidence bundles |
 | **Ship** | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Secure AWS baseline — Cognito, KMS, IAM least privilege, tfsec/tflint CI |
 
-**Start here:** [agent-security-gate](https://github.com/giselleevita/agent-security-gate) — watch the README GIF, or `docker compose up` and see four policy decisions in 30 seconds.
+
+![ASG CI](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml/badge.svg) ![ASG Integration](https://github.com/giselleevita/agent-security-gate/actions/workflows/integration.yml/badge.svg)
 
 ## Writing
 - [Why Agent Security Belongs at the Tool-Call Boundary](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md)
