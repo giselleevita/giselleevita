@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/giselleevita/agent-security-gate/main/docs/assets/asg-demo.gif" alt="Agent Security Gate blocking unsafe AI agent tool calls" width="720" />
 
-📍 Copenhagen · open to roles in **Copenhagen & Zürich** (EU citizen — no permit hurdles) · B.Sc. Computer Science, TU Darmstadt · Thesis: *Runtime Policy Enforcement for LLM-based Agents*
+📍 Copenhagen · open to roles in **Copenhagen & Zürich** (EU citizen — no permit hurdles) · B.Sc. Computer Science, TU Darmstadt
 
 > **Start here:** [agent-security-gate](https://github.com/giselleevita/agent-security-gate) — `docker compose up` and see four policy decisions in 30 seconds.
 
