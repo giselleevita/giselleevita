@@ -13,14 +13,12 @@ ASG and 0/9 with it; policy-violating calls were 11 versus 0. Three legitimate h
 cases were blocked, scored-case security was 100% in both arms, and independent
 reproduction is still [requested](https://github.com/giselleevita/agent-security-gate/issues/65).
 
-## The stack — Evaluate → Enforce → Govern → Evidence → Ship
+## The work — Evaluate → Enforce → Ship
 
-| Layer | Repo | What it proves |
+| Role | Repo | What it proves |
 |---|---|---|
 | **Evaluate** | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | LLM vendor red-teaming — 10 attack classes, OWASP/NIST mapped, hash-manifested reports (HMAC-signed when configured) |
 | **Enforce** | [agent-security-gate](https://github.com/giselleevita/agent-security-gate/tree/v0.7.1) ⭐ | Runtime policy gateway for agent tool calls — OPA/Rego, approvals, DLP, hash-chained audit · CI + integration tested · v0.7.1 |
-| **Govern** | [security-compliance-copilot](https://github.com/giselleevita/security-compliance-copilot) | Grounded NIST/CISA RAG with citations, guardrails, offline evals |
-| **Evidence** | [proofrail-evidence-api](https://github.com/giselleevita/proofrail-evidence-api) | Signed, verifiable compliance evidence bundles |
 | **Ship** | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Secure AWS baseline — Cognito, KMS, IAM least privilege, tfsec/tflint CI |
 
 
