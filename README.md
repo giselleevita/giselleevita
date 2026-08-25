@@ -31,4 +31,4 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 ## Contact
 🌐 [Portfolio](https://giselleevita.github.io/portfolio/) · 💼 [LinkedIn](https://linkedin.com/in/giselle-koch) · ✉️ giselle.evita@gmail.com
 
-🛠 Python · OPA/Rego · FastAPI · AWS · Terraform · Docker · GitHub Actions · 🇩🇪 German (native-level) · 🇬🇧 English (fluent)
+🛠 Python · OPA/Rego · FastAPI · AWS · Terraform · Docker · GitHub Actions · 🇩🇪 German (native) · 🇪🇸 Spanish (native) · 🇬🇧 English (near-native) · 🇩🇰 Danish (learning)
