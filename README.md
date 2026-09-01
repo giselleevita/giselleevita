@@ -1,10 +1,10 @@
 # Hi, I'm Giselle 👋
 
-**I build enforceable AI security systems** — policy that runs *before* agent tool calls execute, not after damage.
+**I am a computer science graduate building secure backend systems**, with a particular focus on enforceable security for AI agents.
 
 <img src="https://raw.githubusercontent.com/giselleevita/agent-security-gate/main/docs/assets/asg-demo.gif" alt="Agent Security Gate blocking unsafe AI agent tool calls" width="720" />
 
-📍 Copenhagen · open to roles in **Copenhagen & Zürich** (EU citizen — no permit hurdles) · B.Sc. Computer Science, TU Darmstadt
+📍 Copenhagen, Denmark · open to **full-time graduate and junior technical roles in Copenhagen** · EU citizen · B.Sc. Computer Science, TU Darmstadt
 
 > **Start here:** [Agent Security Gate v0.7.1 reviewer guide](https://github.com/giselleevita/agent-security-gate/blob/v0.7.1/docs/security-reviewer-guide.md) — a free five-minute protected-function and OPA-outage demonstration with explicit non-claims.
 
@@ -23,6 +23,16 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 
 
 [![ASG CI](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml)
+
+## What I can contribute
+
+- Backend services in Python/FastAPI and Kotlin/Spring Boot
+- REST APIs, PostgreSQL, Redis and system integrations
+- Data pipelines and dimensional modelling: incremental extraction, idempotent loads, dbt, SQL
+- Authentication and authorization with OAuth2, OpenID Connect and role-based access control
+- Automated testing, CI/CD, Docker and cloud infrastructure
+- Security controls for AI-agent actions and tool calls
+- Technical communication in German, Spanish and English
 
 ## Writing
 - [Why Agent Security Belongs at the Tool-Call Boundary](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/agent-security-at-tool-boundary.md)
