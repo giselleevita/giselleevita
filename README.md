@@ -4,7 +4,7 @@
 
 <img src="https://raw.githubusercontent.com/giselleevita/agent-security-gate/main/docs/assets/asg-demo.gif" alt="Agent Security Gate blocking unsafe AI agent tool calls" width="720" />
 
-📍 Based in Copenhagen, Denmark · open to **full-time AI security, security engineering and backend roles in Zürich and Zug** · EU citizen · B.Sc. Computer Science, TU Darmstadt
+📍 Based in Copenhagen, Denmark · open to **full-time AI security, security engineering and backend roles** in **Copenhagen or Zürich/Zug** · EU citizen · B.Sc. Computer Science, TU Darmstadt
 
 > **Start here:** [Agent Security Gate reviewer guide](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-reviewer-guide.md) — a free protected-function and OPA-outage demonstration with explicit non-claims. The [timed walkthrough](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-review-demo-script.md) pins the code to v0.7.1 and includes installation prerequisites.
 
@@ -15,7 +15,7 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 
 ## Selected work
 
-| Role | Repo | What it proves |
+| Role | Repo | What to review |
 |---|---|---|
 | **Enforce** | [agent-security-gate](https://github.com/giselleevita/agent-security-gate/tree/v0.7.1) ⭐ | Runtime policy gateway for agent tool calls — OPA/Rego, approvals, DLP, hash-chained audit · CI + integration tested · v0.7.1 |
 | **Detect** | [aegisais](https://github.com/giselleevita/aegisais) | Python/FastAPI maritime data pipeline — explainable anomaly rules, Redis stream workers, PostgreSQL and React · [runnable example and review guide](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md) |
@@ -26,6 +26,8 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 
 
 [![ASG CI](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml)
+[![AegisAIS CI](https://github.com/giselleevita/aegisais/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/aegisais/actions/workflows/ci.yml)
+[![Evidentia CI](https://github.com/giselleevita/evidentia/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/evidentia/actions/workflows/ci.yml)
 
 ## What I can contribute
 
