@@ -4,9 +4,9 @@
 
 <img src="https://raw.githubusercontent.com/giselleevita/agent-security-gate/main/docs/assets/asg-demo.gif" alt="Agent Security Gate blocking unsafe AI agent tool calls" width="720" />
 
-📍 Copenhagen, Denmark · open to **full-time AI security, security engineering and backend roles** · EU citizen, Danish CPR · B.Sc. Computer Science, TU Darmstadt
+📍 Based in Copenhagen, Denmark · open to **full-time AI security, security engineering and backend roles in Zürich and Zug** · EU citizen · B.Sc. Computer Science, TU Darmstadt
 
-> **Start here:** [Agent Security Gate v0.7.1 reviewer guide](https://github.com/giselleevita/agent-security-gate/blob/v0.7.1/docs/security-reviewer-guide.md) — a free five-minute protected-function and OPA-outage demonstration with explicit non-claims.
+> **Start here:** [Agent Security Gate reviewer guide](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-reviewer-guide.md) — a free protected-function and OPA-outage demonstration with explicit non-claims. The [timed walkthrough](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-review-demo-script.md) pins the code to v0.7.1 and includes installation prerequisites.
 
 Published AgentDojo evidence is bounded: standalone attacker-goal success was 6/9 without
 ASG and 0/9 with it; policy-violating calls were 11 versus 0. Three legitimate held-out
@@ -17,9 +17,10 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 
 | Role | Repo | What it proves |
 |---|---|---|
-| **Evaluate** | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | LLM vendor red-teaming — 10 attack classes, OWASP/NIST mapped, hash-manifested reports (HMAC-signed when configured) |
 | **Enforce** | [agent-security-gate](https://github.com/giselleevita/agent-security-gate/tree/v0.7.1) ⭐ | Runtime policy gateway for agent tool calls — OPA/Rego, approvals, DLP, hash-chained audit · CI + integration tested · v0.7.1 |
-| **Build** | [evidentia](https://github.com/giselleevita/evidentia) | Kotlin/Spring Boot and React compliance workflow — five services, PostgreSQL, OAuth2/OIDC, tests and CI |
+| **Detect** | [aegisais](https://github.com/giselleevita/aegisais) | Python/FastAPI maritime data pipeline — explainable anomaly rules, Redis stream workers, PostgreSQL and React · [runnable example and review guide](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md) |
+| **Build** | [evidentia](https://github.com/giselleevita/evidentia) | Kotlin/Spring Boot and React compliance workflow — five services, PostgreSQL, OAuth2/OIDC · [lifecycle and security review](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md) |
+| **Evaluate** | [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) | LLM vendor red-teaming — 10 attack classes, OWASP/NIST mapped, hash-manifested reports (HMAC-signed when configured) |
 | **Integrate** | [hubspot-pipeline](https://github.com/giselleevita/hubspot-pipeline) | Incremental HubSpot-to-PostgreSQL pipeline — Python, dbt, association modelling and automated tests |
 | **Ship** | [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) | Secure AWS baseline — Cognito, KMS, IAM least privilege, tfsec/tflint CI |
 
