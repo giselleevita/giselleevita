@@ -4,7 +4,9 @@
 
 <img src="https://raw.githubusercontent.com/giselleevita/agent-security-gate/main/docs/assets/asg-demo.gif" alt="Agent Security Gate blocking unsafe AI agent tool calls" width="720" />
 
-📍 Based in Copenhagen, Denmark · open to **full-time AI security, security engineering and backend roles** in **Copenhagen or Zürich/Zug** · EU citizen · B.Sc. Computer Science, TU Darmstadt
+📍 Based in Copenhagen, Denmark · open **now to full-time AI security, security engineering and backend roles in Greater Copenhagen** · EU citizen · B.Sc. Computer Science, TU Darmstadt
+
+**Switzerland: Zürich/Zug opportunities from June 2027 onward (after May 2027).**
 
 > **Start here:** [Agent Security Gate reviewer guide](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-reviewer-guide.md) — a free protected-function and OPA-outage demonstration with explicit non-claims. The [timed walkthrough](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-review-demo-script.md) pins the code to v0.7.1 and includes installation prerequisites.
 
