@@ -4,17 +4,17 @@ A short guide to the code, tests and engineering decisions behind my portfolio.
 Choose the path closest to the role you are reviewing.
 
 My professional foundation is IT security and software engineering at Robert
-Bosch GmbH. The repositories below are separate portfolio work; they do not
-contain Bosch code or establish the scope of a commercial deployment.
+Bosch GmbH. The repositories below are separate portfolio projects rather than
+evidence of Bosch deployments.
 
 ## Application security
 
 **Start with authorization behavior you can inspect.**
 
 1. **Evidentia: HTTP authorization and tenant boundaries.** Read
-   [EvidenceControllerSecurityTest](https://github.com/giselleevita/evidentia/blob/f6e1115cfd1fc957743fbd657060149af7779469/backend/evidence-service/src/test/kotlin/com/evidentia/evidence/adapters/web/EvidenceControllerSecurityTest.kt)
+   [EvidenceControllerSecurityTest](https://github.com/giselleevita/evidentia/blob/main/backend/evidence-service/src/test/kotlin/com/evidentia/evidence/adapters/web/EvidenceControllerSecurityTest.kt)
    alongside
-   [EvidenceServiceTest](https://github.com/giselleevita/evidentia/blob/f6e1115cfd1fc957743fbd657060149af7779469/backend/evidence-service/src/test/kotlin/com/evidentia/evidence/application/EvidenceServiceTest.kt).
+   [EvidenceServiceTest](https://github.com/giselleevita/evidentia/blob/main/backend/evidence-service/src/test/kotlin/com/evidentia/evidence/application/EvidenceServiceTest.kt).
    The review path covers role checks, invalid lifecycle transitions and access
    through a different tenant.
 2. **Agent Security Gate: investigate a control failure and its correction.**
@@ -28,7 +28,7 @@ contain Bosch code or establish the scope of a commercial deployment.
    Discuss scanning, exceptions and the checks that gate later builds.
 
 **Small runnable review:** follow Evidentia's
-[JDK 17 test instructions](https://github.com/giselleevita/evidentia/blob/f6e1115cfd1fc957743fbd657060149af7779469/docs/REVIEWER_GUIDE.md).
+[JDK 17 test instructions](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md).
 The evidence-service tests require dependency downloads but no cloud credentials.
 
 **Questions worth discussing:** Where is a permission checked? What happens to a
@@ -37,7 +37,7 @@ delivery fails? Which classes of vulnerability do these tests not cover?
 
 The local tests do not prove isolation across every production infrastructure
 boundary. Evidentia's
-[security boundaries](https://github.com/giselleevita/evidentia/blob/f6e1115cfd1fc957743fbd657060149af7779469/docs/architecture/security-boundaries.md)
+[security boundaries](https://github.com/giselleevita/evidentia/blob/main/docs/architecture/security-boundaries.md)
 also document that business writes and audit delivery are not one atomic transaction.
 
 ## Agent engineering
@@ -70,9 +70,9 @@ general prompt-injection prevention.
 **Start with a JVM service, then inspect a Python processing pipeline.**
 
 1. **Kotlin/Spring Boot — Evidentia.** Follow the
-   [backend reviewer guide](https://github.com/giselleevita/evidentia/blob/f6e1115cfd1fc957743fbd657060149af7779469/docs/REVIEWER_GUIDE.md),
-   inspect the [evidence service](https://github.com/giselleevita/evidentia/tree/f6e1115cfd1fc957743fbd657060149af7779469/backend/evidence-service)
-   and [state machines](https://github.com/giselleevita/evidentia/blob/f6e1115cfd1fc957743fbd657060149af7779469/docs/architecture/state-machines.md).
+   [backend reviewer guide](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md),
+   inspect the [evidence service](https://github.com/giselleevita/evidentia/tree/main/backend/evidence-service)
+   and [state machines](https://github.com/giselleevita/evidentia/blob/main/docs/architecture/state-machines.md).
    Review REST/controller behavior, lifecycle invariants, persistence migrations
    and the cost of splitting a workflow across services.
 2. **Python/FastAPI — AegisAIS.** Run the
@@ -96,15 +96,6 @@ full streaming stack or establish production throughput. A non-positive time
 interval is skipped by that rule; `NO_ALERT` is not a certificate of valid input.
 
 ## Reproduction and review
-
-Evidentia links use the reviewed snapshot `f6e1115`, rather than the moving default
-branch. Check out that version before following its setup instructions:
-
-```bash
-git clone https://github.com/giselleevita/evidentia.git
-cd evidentia
-git checkout f6e1115cfd1fc957743fbd657060149af7779469
-```
 
 Use the project guides for setup, supported platforms, commands and expected
 results. Evidentia's local service tests use JDK 17. AegisAIS's locked backend

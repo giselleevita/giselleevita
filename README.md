@@ -31,17 +31,13 @@ German and Spanish: native · English: near-native · Danish: learning
 
 | Project | Stack | What it demonstrates |
 |---|---|---|
-| [**Evidentia**](https://github.com/giselleevita/evidentia/tree/f6e1115cfd1fc957743fbd657060149af7779469) | Kotlin, Spring Boot, PostgreSQL, React/TypeScript | Five-service reference application with evidence lifecycle rules, OIDC/RBAC and tenant-scoped audit events. [Review the service and security tests](https://github.com/giselleevita/evidentia/blob/f6e1115cfd1fc957743fbd657060149af7779469/docs/REVIEWER_GUIDE.md). |
+| [**Evidentia**](https://github.com/giselleevita/evidentia) | Kotlin, Spring Boot, PostgreSQL, React/TypeScript | Five-service reference application with evidence lifecycle rules, OIDC/RBAC and tenant-scoped audit events. [Review the service and security tests](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md). |
 | [**Agent Security Gate**](https://github.com/giselleevita/agent-security-gate/tree/v0.7.1) | Python, FastAPI, OPA/Rego, Docker | Authorization before an agent tool executes, approval workflows and verifiable audit records. [Run the protected-function walkthrough](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-review-demo-script.md). |
 | [**AegisAIS**](https://github.com/giselleevita/aegisais) | Python, FastAPI, PostgreSQL, Redis, React | Maritime telemetry ingestion, explainable anomaly rules and stream processing. [Run a small example and inspect failure boundaries](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md). |
 
 These are portfolio/reference implementations with documented tests and review
 paths. Production deployment, independent validation and domain certification
 are separate questions; the linked guides describe the boundaries.
-
-Evidentia links point to the reviewed code snapshot; use the
-[checkout instructions](docs/engineering-evidence.md#reproduction-and-review)
-to reproduce it.
 
 [![ASG CI](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml)
 [![AegisAIS CI](https://github.com/giselleevita/aegisais/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/aegisais/actions/workflows/ci.yml)
