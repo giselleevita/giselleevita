@@ -1,10 +1,10 @@
 # Hi, I'm Giselle 👋
 
-**I am a computer science graduate building secure backend systems**, with a particular focus on enforceable security for AI agents.
+**I build enforceable security for AI agents** — deterministic policy before a tool call executes, human approval for privileged actions, and an audit trail that verifies independently.
 
 <img src="https://raw.githubusercontent.com/giselleevita/agent-security-gate/main/docs/assets/asg-demo.gif" alt="Agent Security Gate blocking unsafe AI agent tool calls" width="720" />
 
-📍 Copenhagen, Denmark · open to **full-time graduate and junior technical roles in Copenhagen** · EU citizen · B.Sc. Computer Science, TU Darmstadt
+📍 Copenhagen, Denmark · open to **full-time AI security, security engineering and backend roles** · EU citizen, Danish CPR · B.Sc. Computer Science, TU Darmstadt
 
 > **Start here:** [Agent Security Gate v0.7.1 reviewer guide](https://github.com/giselleevita/agent-security-gate/blob/v0.7.1/docs/security-reviewer-guide.md) — a free five-minute protected-function and OPA-outage demonstration with explicit non-claims.
 
@@ -41,6 +41,6 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 - [The Denial-Feedback Dilemma — and How to Evaluate It Without Fooling Yourself](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/how-to-evaluate-denial-feedback-honestly.md)
 
 ## Contact
-🌐 [Portfolio](https://giselleevita.github.io/portfolio/) · ✉️ giselle.evita@gmail.com · 📍 Copenhagen
+🌐 [Portfolio](https://giselleevita.github.io/portfolio/) · 💼 [LinkedIn](https://linkedin.com/in/giselle-koch) · ✉️ giselle.evita@gmail.com · 📍 Copenhagen
 
 🛠 Python · OPA/Rego · FastAPI · AWS · Terraform · Docker · GitHub Actions · 🇩🇪 German (native) · 🇪🇸 Spanish (native) · 🇬🇧 English (near-native) · 🇩🇰 Danish (learning)
