@@ -41,6 +41,6 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 - [The Denial-Feedback Dilemma — and How to Evaluate It Without Fooling Yourself](https://github.com/giselleevita/agent-security-gate/blob/main/docs/blog/how-to-evaluate-denial-feedback-honestly.md)
 
 ## Contact
-🌐 [Portfolio](https://giselleevita.github.io/portfolio/) · 💼 [LinkedIn](https://linkedin.com/in/giselle-koch) · ✉️ giselle.evita@gmail.com · 📍 Copenhagen
+🌐 [Portfolio](https://giselleevita.github.io/portfolio/) · ✉️ giselle.evita@gmail.com · 📍 Copenhagen
 
 🛠 Python · OPA/Rego · FastAPI · AWS · Terraform · Docker · GitHub Actions · 🇩🇪 German (native) · 🇪🇸 Spanish (native) · 🇬🇧 English (near-native) · 🇩🇰 Danish (learning)
