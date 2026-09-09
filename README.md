@@ -33,6 +33,7 @@ German and Spanish: native · English: near-native · Danish: learning
 |---|---|---|
 | [**Evidentia**](https://github.com/giselleevita/evidentia) | Kotlin, Spring Boot, PostgreSQL, React/TypeScript | Five-service reference application with evidence lifecycle rules, OIDC/RBAC and tenant-scoped audit events. [Review the service and security tests](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md). |
 | [**Agent Security Gate**](https://github.com/giselleevita/agent-security-gate/tree/v0.7.1) | Python, FastAPI, OPA/Rego, Docker | Authorization before an agent tool executes, approval workflows and verifiable audit records. [Run the protected-function walkthrough](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-review-demo-script.md). |
+| [**Vendor Red-Team Passport**](https://github.com/giselleevita/vendor-red-team-passport) | Python, FastAPI, OpenAI-compatible APIs | Evidence-first LLM evaluation with versioned attack cases, fail-closed release gates and sanitized artifacts. [Inspect the completed local-model results](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/RESULTS.md). |
 | [**AegisAIS**](https://github.com/giselleevita/aegisais) | Python, FastAPI, PostgreSQL, Redis, React | Maritime telemetry ingestion, explainable anomaly rules and stream processing. [Run a small example and inspect failure boundaries](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md). |
 
 These are portfolio/reference implementations with documented tests and review
