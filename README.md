@@ -77,7 +77,7 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 ## Contact and availability
 
 [GitHub engineering evidence](docs/engineering-evidence.md) ·
-[AI-security portfolio](https://giselleevita.github.io/portfolio/) ·
+[AI-security portfolio](https://giselle-security-portfolio.mrclue.chatgpt.site/) ·
 [giselle.evita@gmail.com](mailto:giselle.evita@gmail.com)
 
 **Copenhagen: available now.**
