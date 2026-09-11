@@ -14,10 +14,16 @@ I am interested in building reliable software and making its security properties
 testable.
 
 📍 **Greater Copenhagen, Denmark · available now for full-time backend, application
-security and agent engineering roles · EU citizen**
+security and agent engineering roles · targeting Zürich/Zug from June 2027 · EU citizen**
 
 B.Sc. Computer Science, TU Darmstadt — July 2026
 German and Spanish: native · English: near-native · Danish: learning
+
+## Review my work in 90 seconds
+
+1. [**ToolShield**](https://giselleevita.github.io/ToolShield/) — compare prompt-injection detectors under attack-family and tool holdouts, then turn a score into a risk-aware tool decision. [Walkthrough](https://github.com/giselleevita/ToolShield/blob/main/docs/90_SECOND_DEMO.md).
+2. [**DK Security Pack**](https://github.com/giselleevita/dk-procurement-security-pack-generator/blob/main/docs/90_SECOND_DEMO.md) — generate, sign, independently verify, then deliberately tamper with a synthetic procurement evidence pack.
+3. [**Abrahamic**](https://abrahamic.vercel.app) — inspect a multilingual product with explicit corpus licensing, role-aware publishing, and transactional audit evidence. [Walkthrough](https://github.com/giselleevita/abrahamic/blob/main/docs/90_SECOND_DEMO.md).
 
 ## Choose a review path
 
@@ -31,6 +37,9 @@ German and Spanish: native · English: near-native · Danish: learning
 
 | Project | Stack | What it demonstrates |
 |---|---|---|
+| [**ToolShield**](https://github.com/giselleevita/ToolShield) | Python, FastAPI, static benchmark explorer | Reproducible prompt-injection evaluation, holdout protocols, false-positive reporting, hashed experiment provenance and risk-aware decision simulation. |
+| [**DK Security Pack**](https://github.com/giselleevita/dk-procurement-security-pack-generator) | Python/FastAPI, React/TypeScript, PostgreSQL | Tenant-scoped evidence collection and Ed25519-signed packs with offline verification, negative tamper tests and a disposable synthetic demo. |
+| [**Abrahamic**](https://github.com/giselleevita/abrahamic) | Next.js, TypeScript, Prisma, PostgreSQL | Multilingual relational modeling, licensed-content boundaries, role-aware editorial states and immutable audit events. |
 | [**Evidentia**](https://github.com/giselleevita/evidentia) | Kotlin, Spring Boot, PostgreSQL, React/TypeScript | Five-service reference application with evidence lifecycle rules, OIDC/RBAC and tenant-scoped audit events. [Review the service and security tests](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md). |
 | [**Agent Security Gate**](https://github.com/giselleevita/agent-security-gate/tree/v0.7.1) | Python, FastAPI, OPA/Rego, Docker | Authorization before an agent tool executes, approval workflows and verifiable audit records. [Run the protected-function walkthrough](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-review-demo-script.md). |
 | [**Vendor Red-Team Passport**](https://github.com/giselleevita/vendor-red-team-passport) | Python, FastAPI, OpenAI-compatible APIs | Evidence-first LLM evaluation with versioned attack cases, fail-closed release gates and sanitized artifacts. [Inspect the completed local-model results](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/RESULTS.md). |
@@ -78,6 +87,7 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 ## Contact and availability
 
 [GitHub engineering evidence](docs/engineering-evidence.md) ·
+[CV-ready evidence bullets](docs/cv-evidence.md) ·
 [AI-security portfolio](https://giselle-security-portfolio.mrclue.chatgpt.site/) ·
 [giselle.evita@gmail.com](mailto:giselle.evita@gmail.com)
 
