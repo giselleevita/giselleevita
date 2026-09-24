@@ -1,29 +1,40 @@
 # Hi, I'm Giselle 👋
 
-**Software engineer focused on backend systems and application security.**
+**I work on AI agent security — stopping LLM agents from taking actions they shouldn't, and measuring honestly whether the defence worked.**
 
-I have professional experience in IT security and software engineering at
-**Robert Bosch GmbH**, working with backend services, internal tooling,
-vulnerability and software issue investigation, Python, Linux, Docker, REST APIs,
-testing and CI/CD. I also worked as a technical assistant and Algorithms & Data
-Structures tutor at TU Darmstadt.
+My B.Sc. thesis at TU Darmstadt built a policy enforcement point that evaluates every tool
+call an agent proposes before it executes. The part I care most about is the evaluation: my
+first benchmark scored 100% → 0% and I discarded it, because I had authored both the attacks
+and the policy, which made the result close to tautological. I re-measured against
+[AgentDojo](https://github.com/ethz-spylab/agentdojo), an external suite I did not write,
+with the protocol frozen in Git before any run — task partition, policy, model digest, seed,
+temperature, and disjoint development and held-out splits. Results are reported as counts with
+Wilson confidence intervals, and I published the arm that showed no uplift alongside the ones
+that did.
 
-My projects extend that foundation into **Python/FastAPI and Kotlin/Spring Boot
-services, authentication and authorization, and secure AI-agent tool execution**.
-I am interested in building reliable software and making its security properties
-testable.
+Alongside that: LLM red-teaming with OWASP/NIST-mapped attack classes, compliance evidence
+systems in Kotlin/Spring Boot, and secure infrastructure in Terraform.
 
-📍 **Greater Copenhagen, Denmark · available now for full-time backend, application
-security and agent engineering roles · targeting Zürich/Zug from June 2027 · EU citizen**
+📍 **Greater Copenhagen, Denmark · EU citizen**
 
 B.Sc. Computer Science, TU Darmstadt — July 2026
 German and Spanish: native · English: near-native · Danish: learning
 
+## Upstream contributions
+
+Work on shared artifacts rather than my own repositories:
+
+| Where | What | Status |
+|---|---|---|
+| [ethz-spylab/agentdojo#209](https://github.com/ethz-spylab/agentdojo/issues/209) | `tool_filter` produces zero tool calls with a local model that tool-calls normally without it — 0/40 scored cases, with traces and a ruled-out mechanism | Open |
+| [ethz-spylab/agentdojo#184](https://github.com/ethz-spylab/agentdojo/issues/184) | Proposal: a generic pre-execution authorizer seam for `FunctionsRuntime`, with fail-closed semantics and a test plan | Open |
+| [OWASP ACS#32](https://github.com/GenAI-Security-Project/agent-control-standard/issues/32) | Measured cost of a fail-closed decision-failure posture: 70 replayed calls, 70 denies, 0 executions | Open |
+
 ## Review my work in 90 seconds
 
-1. [**ToolShield**](https://giselleevita.github.io/ToolShield/) — compare prompt-injection detectors under attack-family and tool holdouts, then turn a score into a risk-aware tool decision. [Walkthrough](https://github.com/giselleevita/ToolShield/blob/main/docs/90_SECOND_DEMO.md).
+1. [**Agent Security Gate**](https://github.com/giselleevita/agent-security-gate) — block an unsafe agent tool call before it runs, then read [what the benchmark does not prove](https://github.com/giselleevita/agent-security-gate/blob/main/docs/benchmark-methodology.md#what-this-does-not-prove).
 2. [**DK Security Pack**](https://github.com/giselleevita/dk-procurement-security-pack-generator/blob/main/docs/90_SECOND_DEMO.md) — generate, sign, independently verify, then deliberately tamper with a synthetic procurement evidence pack.
-3. [**Abrahamic**](https://abrahamic.vercel.app) — inspect a multilingual product with explicit corpus licensing, role-aware publishing, and transactional audit evidence. [Walkthrough](https://github.com/giselleevita/abrahamic/blob/main/docs/90_SECOND_DEMO.md).
+3. [**Vendor Red-Team Passport**](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/RESULTS.md) — versioned attack cases and fail-closed release gates, with completed local-model results.
 
 ## Choose a review path
 
@@ -37,11 +48,10 @@ German and Spanish: native · English: near-native · Danish: learning
 
 | Project | Stack | What it demonstrates |
 |---|---|---|
-| [**ToolShield**](https://github.com/giselleevita/ToolShield) | Python, FastAPI, static benchmark explorer | Reproducible prompt-injection evaluation plus bounded API inputs, separate liveness/readiness, authenticated runtime configuration and optional fail-closed audit persistence. |
+| [**Agent Security Gate**](https://github.com/giselleevita/agent-security-gate) | Python, FastAPI, OPA/Rego, Docker | Authorization before agent tool execution, approval workflows, verifiable audit records, and optional OpenTelemetry trace correlation on `main`. [Review the trace runbook](https://github.com/giselleevita/agent-security-gate/blob/main/docs/runbooks/observability.md). |
 | [**DK Security Pack**](https://github.com/giselleevita/dk-procurement-security-pack-generator) | Python/FastAPI, React/TypeScript, PostgreSQL | Tenant-scoped evidence collection and Ed25519-signed packs with fail-closed key loading, explicit atomic rotation and offline verification of historical packs. |
 | [**Abrahamic**](https://github.com/giselleevita/abrahamic) | Next.js, TypeScript, Prisma, PostgreSQL | Multilingual relational modeling, licensed-content boundaries, role-aware editorial states and immutable audit events. |
 | [**Evidentia**](https://github.com/giselleevita/evidentia) | Kotlin, Spring Boot, PostgreSQL, React/TypeScript | Five-service reference application with evidence lifecycle rules, OIDC/RBAC, and leased webhook delivery with bounded retries and recovery metrics. [Review the service and security tests](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md). |
-| [**Agent Security Gate**](https://github.com/giselleevita/agent-security-gate/tree/v0.7.1) | Python, FastAPI, OPA/Rego, Docker | Authorization before agent tool execution, approval workflows, verifiable audit records, and optional OpenTelemetry trace correlation on `main`. [Review the trace runbook](https://github.com/giselleevita/agent-security-gate/blob/main/docs/runbooks/observability.md). |
 | [**Vendor Red-Team Passport**](https://github.com/giselleevita/vendor-red-team-passport) | Python, FastAPI, OpenAI-compatible APIs | Evidence-first LLM evaluation with versioned attack cases, fail-closed release gates and sanitized artifacts. [Inspect the completed local-model results](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/RESULTS.md). |
 | [**AegisAIS**](https://github.com/giselleevita/aegisais) | Python, FastAPI, PostgreSQL, Redis, React | Maritime telemetry ingestion, explainable anomaly rules and stream processing. [Run a small example and inspect failure boundaries](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md). |
 
@@ -88,8 +98,7 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 
 [GitHub engineering evidence](docs/engineering-evidence.md) ·
 [CV-ready evidence bullets](docs/cv-evidence.md) ·
-[AI-security portfolio](https://giselle-security-portfolio.mrclue.chatgpt.site/) ·
+[Portfolio](https://giselleevita.github.io/portfolio/) ·
 [giselle.evita@gmail.com](mailto:giselle.evita@gmail.com)
 
-**Copenhagen: available now.**
-**Future Switzerland opportunities: Zürich or Zug from June 2027 onward, after May 2027.**
+**Copenhagen — available now.**
