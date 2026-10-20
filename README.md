@@ -33,8 +33,7 @@ Work on shared artifacts rather than my own repositories:
 ## Review my work in 90 seconds
 
 1. [**Agent Security Gate**](https://github.com/giselleevita/agent-security-gate) — block an unsafe agent tool call before it runs, then read [what the benchmark does not prove](https://github.com/giselleevita/agent-security-gate/blob/main/docs/benchmark-methodology.md#what-this-does-not-prove).
-2. [**DK Security Pack**](https://github.com/giselleevita/dk-procurement-security-pack-generator/blob/main/docs/90_SECOND_DEMO.md) — generate, sign, independently verify, then deliberately tamper with a synthetic procurement evidence pack.
-3. [**Vendor Red-Team Passport**](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/RESULTS.md) — versioned attack cases and fail-closed release gates, with completed local-model results.
+2. [**Vendor Red-Team Passport**](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/RESULTS.md) — versioned attack cases and fail-closed release gates, with completed local-model results.
 
 ## Choose a review path
 
@@ -49,7 +48,6 @@ Work on shared artifacts rather than my own repositories:
 | Project | Stack | What it demonstrates |
 |---|---|---|
 | [**Agent Security Gate**](https://github.com/giselleevita/agent-security-gate) | Python, FastAPI, OPA/Rego, Docker | Authorization before agent tool execution, approval workflows, verifiable audit records, and optional OpenTelemetry trace correlation on `main`. [Review the trace runbook](https://github.com/giselleevita/agent-security-gate/blob/main/docs/runbooks/observability.md). |
-| [**DK Security Pack**](https://github.com/giselleevita/dk-procurement-security-pack-generator) | Python/FastAPI, React/TypeScript, PostgreSQL | Tenant-scoped evidence collection and Ed25519-signed packs with fail-closed key loading, explicit atomic rotation and offline verification of historical packs. |
 | [**Abrahamic**](https://github.com/giselleevita/abrahamic) | Next.js, TypeScript, Prisma, PostgreSQL | Multilingual relational modeling, licensed-content boundaries, role-aware editorial states and immutable audit events. |
 | [**Evidentia**](https://github.com/giselleevita/evidentia) | Kotlin, Spring Boot, PostgreSQL, React/TypeScript | Five-service reference application with evidence lifecycle rules, OIDC/RBAC, and leased webhook delivery with bounded retries and recovery metrics. [Review the service and security tests](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md). |
 | [**Vendor Red-Team Passport**](https://github.com/giselleevita/vendor-red-team-passport) | Python, FastAPI, OpenAI-compatible APIs | Evidence-first LLM evaluation with versioned attack cases, fail-closed release gates and sanitized artifacts. [Inspect the completed local-model results](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/RESULTS.md). |
@@ -90,7 +88,6 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 
 ## Supporting work
 
-- [secure-docs-aws](https://github.com/giselleevita/secure-docs-aws) — AWS reference infrastructure with Cognito, KMS, IAM and Terraform security checks.
 - [hubspot-pipeline](https://github.com/giselleevita/hubspot-pipeline) — Python/PostgreSQL/dbt integration and incremental data modelling.
 - [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) — structured LLM evaluation and reviewable reports.
 
