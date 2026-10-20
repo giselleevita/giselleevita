@@ -22,11 +22,6 @@ evidence of Bosch deployments.
    describes an adapter argument-shape mismatch that bypassed argument-level policy,
    its correction and regression coverage. This is a concrete example for discussing
    how a security claim can fail at an integration boundary.
-3. **AegisAIS: secure development checks.** Inspect the
-   [supply-chain assurance policy](https://github.com/giselleevita/aegisais/blob/main/docs/security/SUPPLY_CHAIN_ASSURANCE.md)
-   and [CI workflow](https://github.com/giselleevita/aegisais/blob/main/.github/workflows/ci.yml).
-   Discuss scanning, exceptions and the checks that gate later builds.
-
 **Small runnable review:** follow Evidentia's
 [JDK 17 test instructions](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md).
 The evidence-service tests require dependency downloads but no cloud credentials.
@@ -67,7 +62,7 @@ general prompt-injection prevention.
 
 ## Backend engineering
 
-**Start with a JVM service, then inspect a Python processing pipeline.**
+**Start with a JVM service.**
 
 1. **Kotlin/Spring Boot — Evidentia.** Follow the
    [backend reviewer guide](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md),
@@ -75,25 +70,6 @@ general prompt-injection prevention.
    and [state machines](https://github.com/giselleevita/evidentia/blob/main/docs/architecture/state-machines.md).
    Review REST/controller behavior, lifecycle invariants, persistence migrations
    and the cost of splitting a workflow across services.
-2. **Python/FastAPI — AegisAIS.** Run the
-   [credential-free detection example](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md)
-   and inspect [its source](https://github.com/giselleevita/aegisais/blob/main/apps/api/scripts/detection_walkthrough.py).
-   The examples cover normal movement, an impossible jump, an invalid coordinate
-   and an out-of-order timestamp.
-3. **Failures and repeated delivery.** Inspect
-   [worker boundary tests](https://github.com/giselleevita/aegisais/blob/main/apps/api/tests/test_worker_runtime_boundaries.py)
-   and [alert idempotency tests](https://github.com/giselleevita/aegisais/blob/main/apps/api/tests/test_alert_idempotency.py).
-   Use the [system overview](https://github.com/giselleevita/aegisais/blob/main/docs/architecture/SYSTEM_OVERVIEW.md)
-   to locate APIs, workers, persistence and observability.
-
-**Questions worth discussing:** What happens to duplicate input? How is an invalid
-state rejected? Which failure is retried? How would you diagnose a missing alert?
-When would a modular monolith be preferable to several services?
-
-AegisAIS uses maritime telemetry rather than charging protocols; it does not
-demonstrate OCPP/OCPI expertise. Its small rule walkthrough does not exercise the
-full streaming stack or establish production throughput. A non-positive time
-interval is skipped by that rule; `NO_ALERT` is not a certificate of valid input.
 
 ## Operational failure handling
 
@@ -109,18 +85,13 @@ These `main`-branch reference implementations expose concrete failure behavior:
    and [dispatch-policy tests](https://github.com/giselleevita/evidentia/blob/main/backend/integration-service/src/test/kotlin/com/evidentia/integration/application/WebhookDispatchPolicyTest.kt)
    exercise due-delivery leasing, retry classification, lease recovery and
    terminal failures without holding a database transaction across HTTP I/O.
-4. [DK Security Pack signing tests](https://github.com/giselleevita/dk-procurement-security-pack-generator/blob/main/backend/tests/test_pack_signing_safety.py)
-   cover fail-closed state loading, explicit rotation and historical-pack
-   verification.
-
 These controls and tests improve inspectability; they do not establish a
 production SLO, external certification or independent security validation.
 
 ## Reproduction and review
 
 Use the project guides for setup, supported platforms, commands and expected
-results. Evidentia's local service tests use JDK 17. AegisAIS's locked backend
-environment requires Linux/WSL. ASG's complete verification path also needs the
+results. Evidentia's local service tests use JDK 17. ASG's complete verification path also needs the
 POSIX-compatible environment described in its guide.
 
 I welcome discussion of the implementations, their limitations and the changes
