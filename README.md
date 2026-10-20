@@ -84,10 +84,6 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 - [Reviewer guide and reproduction prerequisites](https://github.com/giselleevita/agent-security-gate/blob/main/docs/security-reviewer-guide.md)
 - [Published benchmark evidence and limits](https://github.com/giselleevita/agent-security-gate/blob/main/docs/benchmark-results/agentdojo-local.md)
 
-## Supporting work
-
-- [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) — structured LLM evaluation and reviewable reports.
-
 ## Contact and availability
 
 [GitHub engineering evidence](docs/engineering-evidence.md) ·
