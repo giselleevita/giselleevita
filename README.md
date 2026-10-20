@@ -51,14 +51,12 @@ Work on shared artifacts rather than my own repositories:
 | [**Abrahamic**](https://github.com/giselleevita/abrahamic) | Next.js, TypeScript, Prisma, PostgreSQL | Multilingual relational modeling, licensed-content boundaries, role-aware editorial states and immutable audit events. |
 | [**Evidentia**](https://github.com/giselleevita/evidentia) | Kotlin, Spring Boot, PostgreSQL, React/TypeScript | Five-service reference application with evidence lifecycle rules, OIDC/RBAC, and leased webhook delivery with bounded retries and recovery metrics. [Review the service and security tests](https://github.com/giselleevita/evidentia/blob/main/docs/REVIEWER_GUIDE.md). |
 | [**Vendor Red-Team Passport**](https://github.com/giselleevita/vendor-red-team-passport) | Python, FastAPI, OpenAI-compatible APIs | Evidence-first LLM evaluation with versioned attack cases, fail-closed release gates and sanitized artifacts. [Inspect the completed local-model results](https://github.com/giselleevita/vendor-red-team-passport/blob/main/docs/RESULTS.md). |
-| [**AegisAIS**](https://github.com/giselleevita/aegisais) | Python, FastAPI, PostgreSQL, Redis, React | Maritime telemetry ingestion, explainable anomaly rules and stream processing. [Run a small example and inspect failure boundaries](https://github.com/giselleevita/aegisais/blob/main/docs/REVIEWER_GUIDE.md). |
 
 These are portfolio/reference implementations with documented tests and review
 paths. Production deployment, independent validation and domain certification
 are separate questions; the linked guides describe the boundaries.
 
 [![ASG CI](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/agent-security-gate/actions/workflows/ci.yml)
-[![AegisAIS CI](https://github.com/giselleevita/aegisais/actions/workflows/ci.yml/badge.svg)](https://github.com/giselleevita/aegisais/actions/workflows/ci.yml)
 
 ## How I approach engineering
 
@@ -88,7 +86,6 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 
 ## Supporting work
 
-- [hubspot-pipeline](https://github.com/giselleevita/hubspot-pipeline) — Python/PostgreSQL/dbt integration and incremental data modelling.
 - [vendor-red-team-passport](https://github.com/giselleevita/vendor-red-team-passport) — structured LLM evaluation and reviewable reports.
 
 ## Contact and availability
