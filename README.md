@@ -91,7 +91,6 @@ reproduction is still [requested](https://github.com/giselleevita/agent-security
 ## Contact and availability
 
 [GitHub engineering evidence](docs/engineering-evidence.md) ·
-[CV-ready evidence bullets](docs/cv-evidence.md) ·
 [Portfolio](https://giselleevita.github.io/portfolio/) ·
 [giselle.evita@gmail.com](mailto:giselle.evita@gmail.com)
 
