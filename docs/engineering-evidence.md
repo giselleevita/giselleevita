@@ -3,10 +3,6 @@
 A short guide to the code, tests and engineering decisions behind my portfolio.
 Choose the path closest to the role you are reviewing.
 
-My professional foundation is IT security and software engineering at Robert
-Bosch GmbH. The repositories below are separate portfolio projects rather than
-evidence of Bosch deployments.
-
 ## Application security
 
 **Start with authorization behavior you can inspect.**
