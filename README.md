@@ -1,9 +1,8 @@
 # Hi, I'm Giselle 👋
 
-**I work on AI agent security — stopping LLM agents from taking actions they shouldn't, and measuring honestly whether the defence worked.**
+**I work on AI agent security — building and evaluating authorization controls at the agent tool-call boundary.**
 
-My B.Sc. thesis at TU Darmstadt built a policy enforcement point that evaluates every tool
-call an agent proposes before it executes. The part I care most about is the evaluation: my
+My B.Sc. thesis at TU Darmstadt built a policy enforcement point that evaluates tool calls routed through its authorization boundary before execution. The part I care most about is the evaluation: my
 first benchmark scored 100% → 0% and I discarded it, because I had authored both the attacks
 and the policy, which made the result close to tautological. I re-measured against
 [AgentDojo](https://github.com/ethz-spylab/agentdojo), an external suite I did not write,
