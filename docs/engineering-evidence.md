@@ -71,13 +71,10 @@ general prompt-injection prevention.
 
 These `main`-branch reference implementations expose concrete failure behavior:
 
-1. [ToolShield API tests](https://github.com/giselleevita/ToolShield/blob/main/tests/test_demo.py)
-   cover bounded requests, model readiness, authenticated configuration and
-   required audit-write failure.
-2. [Agent Security Gate's observability runbook](https://github.com/giselleevita/agent-security-gate/blob/main/docs/runbooks/observability.md)
+1. [Agent Security Gate's observability runbook](https://github.com/giselleevita/agent-security-gate/blob/main/docs/runbooks/observability.md)
    shows W3C trace/request correlation while excluding prompts, arguments,
    tenant IDs and credentials from span attributes.
-3. [Evidentia's webhook migration](https://github.com/giselleevita/evidentia/blob/main/backend/integration-service/src/main/resources/db/migration/V3__webhook_delivery_leases.sql)
+2. [Evidentia's webhook migration](https://github.com/giselleevita/evidentia/blob/main/backend/integration-service/src/main/resources/db/migration/V3__webhook_delivery_leases.sql)
    and [dispatch-policy tests](https://github.com/giselleevita/evidentia/blob/main/backend/integration-service/src/test/kotlin/com/evidentia/integration/application/WebhookDispatchPolicyTest.kt)
    exercise due-delivery leasing, retry classification, lease recovery and
    terminal failures without holding a database transaction across HTTP I/O.
