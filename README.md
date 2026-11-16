@@ -28,6 +28,11 @@ Work on shared artifacts rather than my own repositories:
 | [ethz-spylab/agentdojo#209](https://github.com/ethz-spylab/agentdojo/issues/209) | `tool_filter` produces zero tool calls with a local model that tool-calls normally without it — 0/40 scored cases, with traces and a ruled-out mechanism | Open |
 | [ethz-spylab/agentdojo#184](https://github.com/ethz-spylab/agentdojo/issues/184) | Proposal: a generic pre-execution authorizer seam for `FunctionsRuntime`, with fail-closed semantics and a test plan | Open |
 | [OWASP ACS#32](https://github.com/GenAI-Security-Project/agent-control-standard/issues/32) | Measured cost of a fail-closed decision-failure posture: 70 replayed calls, 70 denies, 0 executions | Open |
+| [UKGovernmentBEIS/control-arena#953](https://github.com/UKGovernmentBEIS/control-arena/issues/953) | Same-named input logs overwrote each other's post-hoc monitor output; reproduced on upstream and fixed in [#954](https://github.com/UKGovernmentBEIS/control-arena/pull/954) with a regression test | Fix ready for review, CI green |
+| [NVIDIA/garak#2470](https://github.com/NVIDIA/garak/pull/2470) | Review: a test that passed on an empty AVID export; proposed a record-count assertion | Review posted |
+| [intel/dokimi#812](https://github.com/intel/dokimi/issues/812) | Claimed; asked maintainers whether the `run_context.v1` schema change belongs in this round | Awaiting maintainer reply |
+
+Write-up of the two contributions in detail: [ai-eval-contributions](https://github.com/giselleevita/ai-eval-contributions).
 
 ## Review my work in 90 seconds
 
