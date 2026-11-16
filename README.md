@@ -31,6 +31,7 @@ Work on shared artifacts rather than my own repositories:
 | [UKGovernmentBEIS/control-arena#953](https://github.com/UKGovernmentBEIS/control-arena/issues/953) | Same-named input logs overwrote each other's post-hoc monitor output; reproduced on upstream and fixed in [#954](https://github.com/UKGovernmentBEIS/control-arena/pull/954) with a regression test | Fix ready for review, CI green |
 | [NVIDIA/garak#2470](https://github.com/NVIDIA/garak/pull/2470) | Review: a test that passed on an empty AVID export; proposed a record-count assertion | Review posted |
 | [intel/dokimi#812](https://github.com/intel/dokimi/issues/812) | Claimed; asked maintainers whether the `run_context.v1` schema change belongs in this round | Awaiting maintainer reply |
+| [ethz-spylab/agentdojo#241](https://github.com/ethz-spylab/agentdojo/issues/241#issuecomment-6917629423) | Pointed a reported rental end-time bug to open PR #204; ran its two tests: they pass on the PR and fail on `main` | Comment posted |
 
 Write-up of the two contributions in detail: [ai-eval-contributions](https://github.com/giselleevita/ai-eval-contributions).
 
