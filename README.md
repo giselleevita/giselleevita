@@ -21,7 +21,7 @@ German and Spanish: native · English: near-native · Danish: learning
 
 ## Upstream contributions
 
-Work on shared artifacts rather than my own repositories:
+Work on shared artifacts rather than my own repositories. For the complete activity record, see my [GitHub activity](https://github.com/giselleevita?tab=activity) and [pull requests](https://github.com/pulls?q=is%3Apr+author%3Agiselleevita):
 
 | Where | What | Evidence | Status |
 |---|---|---|---|
